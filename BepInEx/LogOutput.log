@@ -5,17 +5,51 @@
 [Info   :   BepInEx] System platform: Bits64, Windows
 [Message:   BepInEx] Preloader started
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
-[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 21 plugins to load
-[Warning:   BepInEx] Skipping [MoreEmotes-Sligili 0.1.0] because a newer version exists (MoreEmotes-Sligili 1.1.1)
+[Info   :   BepInEx] 25 plugins to load
 [Warning:   BepInEx] Plugin [Custom Boombox Music 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [MoreEmotes-Sligili 1.1.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [More Suits 1.3.2] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Health Station mod 1.0.0.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Skinwalker Mod 1.0.7] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Too Many Suits 1.0.3] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Lethal Escape 0.5] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Info   :   BepInEx] Loading [Persistent Purchases 1.1.0]
+[Warning:Persistent Purchases] Beginning transpilation of GameNetworkManager.ResetSavedGameValues()
+[Info   :Persistent Purchases] Found ship object opcode at 62
+[Info   :Persistent Purchases] Found placeable ship object data opcode at 77
+[Info   :Persistent Purchases] Found placeable ship object data opcode at 88
+[Info   :Persistent Purchases] Found placeable ship object data opcode at 99
+[Info   :Persistent Purchases] Found placeable ship object data opcode at 110
+[Warning:Persistent Purchases] Beginning transpilation of StartOfRound.ResetShip()
+[Info   :Persistent Purchases] Found ship object prefab opcode at 75 (1)
+[Info   :Persistent Purchases] Found ship object prefab opcode at 163 (1)
+[Info   :Persistent Purchases] Found suit reset opcode at 240
+[Warning:Persistent Purchases] Beginning transpilation of StartOfRound.SyncShipUnlockablesServerRpc()
+[Warning:Persistent Purchases] This crash is not evading me
+[Message:Persistent Purchases] Plugin Persistent Purchases is loaded!
 [Info   :   BepInEx] Loading [BetterTeleporter 1.0.0]
 [Info   :BetterTeleporter] Plugin BetterTeleporter is loaded!
 [Info   :   BepInEx] Loading [BrutalCompanyPlus 3.2.0]
@@ -24,15 +58,56 @@
 [Info   :   BepInEx] Loading [Custom Boombox Music 1.0.0]
 [Debug  :Custom Boombox Music] Initializing config...
 [Debug  :Custom Boombox Music] Config initialized!
-[Info   :   BepInEx] Loading [LC_API 1.0.0]
-[Info   :    LC_API] LC-API Starting up..
+[Info   :   BepInEx] Loading [LethalLib 0.6.0]
+[Info   : LethalLib] LethalLib loaded!!
+[Info   :   BepInEx] Loading [LethalThings 0.6.0]
+[Info   :LethalThings] Loaded asset bundle
+[Info   :LethalThings] Registering shop item RocketLauncher with price 260
+[Info   :LethalThings] Registering shop item ToyHammer with price 80
+[Info   :LethalThings] Registering shop item RemoteRadar with price 240
+[Info   :LethalThings] Registering shop item PouchyBelt with price 290
+[Info   :LethalThings] Registering shop item HackingTool with price 190
+[Info   :LethalThings] Custom content loaded!
+[Info   :LethalThings] LethalThings loaded guh
+[Info   :   BepInEx] Loading [LC_API 2.1.1]
+[Warning:    LC_API] 
+.____    _________           _____  __________ .___  
+|    |   \_   ___ \         /  _  \ \______   \|   | 
+|    |   /    \  \/        /  /_\  \ |     ___/|   | 
+|    |___\     \____      /    |    \|    |    |   | 
+|_______ \\______  /______\____|__  /|____|    |___| 
+        \/       \//_____/        \/                 
+                                                     
+[Info   :    LC_API] LC_API Starting up..
 [Info   :   BepInEx] Loading [LethalCompanyDRP 1.0.0]
 [Info   :LethalCompanyDRP] Started LethalCompanyDRP
-[Info   :   BepInEx] Loading [MoreCompany 1.3.0]
-[Info   :   BepInEx] Loading [MikesTweaks 1.6.4]
-[Info   :MikesTweaks] Plugin mikes.lethalcompany.mikestweaks is loaded!
+[Info   :   BepInEx] Loading [MoreCompany 1.7.1]
+[Info   :MoreCompany] Loading MoreCompany...
+[Info   :MoreCompany] Checking: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins/MoreCompanyCosmetics
+[Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :MoreCompany] Read settings and cosmetics
+[Info   :MoreCompany] Loaded cosmetic: builtin.3dglasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.bunnyears from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.denimhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.fancyglasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyglasses from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.gunholster from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.hardhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.jesterhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.kittyears from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.mimemask from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.fancypants from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.outoforder from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyhat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.plaguemask from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.eyeballs from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.rudolph from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.santahat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.slimething from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle
+[Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle
+[Info   :MoreCompany] Loading USER COSMETICS...
 [Info   :   BepInEx] Loading [Enhancer 0.1.4]
-[Info   :LethalCompanyDRP] Discord RPC Started
 [Info   :  Enhancer] Enabled, patching now
 [Info   :  Enhancer] Doing suit patches
 [Info   :  Enhancer] Doing protection patches
@@ -44,12 +119,28 @@
 [Info   :MoreEmotes-Sligili] MoreEmotes loaded
 [Info   :   BepInEx] Loading [Health Station mod 1.0.0.1]
 [Info   :Octolar.Healthstation] Octolar HealthStation mod is now active
-[Info   :   BepInEx] Loading [PermUnlockables 1.0.0]
-[Info   :PermUnlockables] PermUnlockables has loaded!!!
 [Info   :   BepInEx] Loading [Flashlight 1.2.0]
 [Info   :Flashlight] ------Flashlight done.------
 [Info   :   BepInEx] Loading [WalkieUse 1.0.1]
 [Info   : WalkieUse] ------Walkie done.------
+[Info   :   BepInEx] Loading [Skinwalker Mod 1.0.7]
+[Info   :RugbugRedfern.SkinwalkerMod] SKINWALKER MOD STARTING UP 1.0.7
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BaboonHawk VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Bracken VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BunkerSpider VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Centipede VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_CoilHead VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_EyelessDog VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_ForestGiant VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GhostGirl VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GiantWorm VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_HoardingBug VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Hygrodere VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Jester VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_SporeLizard VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Thumper VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [1]
+[Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
 [Info   :   BepInEx] Loading [BrutalCompanyAdditions 1.1.1]
 [Info   :BrutalCompanyAdditions] Event Bling bling is enabled.
 [Info   :BrutalCompanyAdditions] Event Got any stock? is enabled.
@@ -67,9 +158,16 @@
 [Info   :suskitech.LCAlwaysHearActiveWalkie]  |[__]| Always Hear Active Walkies
 [Info   :suskitech.LCAlwaysHearActiveWalkie]  |.  .| Version 1.4.2 Loaded
 [Info   :suskitech.LCAlwaysHearActiveWalkie]  |____|
-[Info   :   BepInEx] Loading [More Suits 1.3.2]
+[Info   :   BepInEx] Loading [More Suits 1.3.3]
 [Info   :More Suits] Plugin More Suits is loaded!
+[Info   :   BepInEx] Loading [Too Many Suits 1.0.3]
+[Info   :Too Many Suits] TooManySuits Mod Loaded.
+[Info   :   BepInEx] Loading [Mimics 1.1.1]
+[Info   :    Mimics] Plugin Mimics is loaded!
+[Info   :   BepInEx] Loading [Lethal Escape 0.5]
+[Info   :GameMaster] Loaded xCeezy.LethalEscape. Patching.
 [Message:   BepInEx] Chainloader startup complete
+[Info   :LethalCompanyDRP] Discord RPC Started
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 1
 [Info   : Unity Log] Overriding float
@@ -77,8 +175,29 @@
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
 [Info   :BrutalCompanyPlus] Attempting to Initialize BrutalPlus
 [Warning:BrutalCompanyPlus] Brutal Plus is Awake
+[Message:    LC_API] BundleAPI will now load all asset bundles...
+[Message:    LC_API] BundleAPI got no assets to load from legacy directory
+[Message:    LC_API] BundleAPI got 6 AssetBundles to load!
+[Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\suitselect' can't be loaded because another AssetBundle with the same files is already loaded.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\suitselect
+[Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\yippeesound' can't be loaded because another AssetBundle with the same files is already loaded.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\yippeesound
+[Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalThings\lethalthings' can't be loaded because another AssetBundle with the same files is already loaded.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalThings\lethalthings
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/LethalThings/LethalThings.pdb
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalThings\LethalThings.pdb'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalThings\LethalThings.pdb
+[Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animationsbundle' can't be loaded because another AssetBundle with the same files is already loaded.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animationsbundle
+[Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animatorbundle' can't be loaded because another AssetBundle with the same files is already loaded.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animatorbundle
+[Message:    LC_API] BundleAPI finished loading all assets.
+[Message:    LC_API] BundleAPI finished loading all assets.
+[Info   :    LC_API] LC_API Started!
+[Message:    LC_API] A plugin has set your game to only allow you to play with other people who have mods!
 [Warning:BrutalCompanyAdditions] Initializing BCManager...
 [Warning:BrutalCompanyAdditions] BCManager initialized!
+[Warning: Unity Log] Failed to change display to ExclusiveFullscreen...reverting to FullscreenWindow
 [Info   : Unity Log] Saving changed settings
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 1
@@ -86,11 +205,6 @@
 [Info   : Unity Log] Gamma changed
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
 [Info   : Unity Log] subcribing to steam callbacks
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <074697f779d644489dafc9942b56bdb2>:0)
-(wrapper dynamic-method) MenuManager.DMD<MenuManager::Awake>(MenuManager)
-
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 1
 [Info   : Unity Log] Overriding float
@@ -105,8 +219,8 @@ MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <0
 [Info   : Unity Log] Gamma changed
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
 [Info   : Unity Log] T
-[Info   : Unity Log] [Dissonance:Core] (18:37:30.082) DissonanceComms: Loading default playback prefab
-[Info   : Unity Log] [Dissonance:Core] (18:37:31.336) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] [Dissonance:Core] (20:32:09.818) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (20:32:09.848) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
@@ -123,30 +237,109 @@ MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <0
 [Info   : Unity Log] are we in a server?: True
 [Message:    LC_API] server pre-setup success
 [Info   : Unity Log] Lobby has been created
-[Info   : Unity Log] [Dissonance:Network] (18:37:50.601) NfgoServer: Created server with SessionId:104575062
-[Info   : Unity Log] [Dissonance:Network] (18:37:50.608) NfgoServer: Connected
-[Warning: Unity Log] [Dissonance:Recording] (18:37:50.877) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:13.92333)
-[Info   : Unity Log] [Dissonance:Recording] (18:37:51.051) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
-[Warning: Unity Log] [Dissonance:Recording] (18:37:51.264) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.4124781)
-[Info   : Unity Log] [Dissonance:Recording] (18:37:51.497) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
-[Info   : Unity Log] [Dissonance:Network] (18:37:51.504) ConnectionNegotiator`1: Received handshake response from server, joined session '104575062'
-[Info   : Unity Log] [Dissonance:Network] (18:38:05.117) NfgoClient: Disconnected
-[Info   : Unity Log] [Dissonance:Network] (18:38:05.134) NfgoServer: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (20:32:15.351) NfgoServer: Created server with SessionId:1350623563
+[Info   : Unity Log] [Dissonance:Network] (20:32:15.355) NfgoServer: Connected
+[Info   : Unity Log] [Dissonance:Recording] (20:32:15.436) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
+[Warning: Unity Log] [Dissonance:Recording] (20:32:15.463) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.1833804)
+[Info   : Unity Log] [Dissonance:Recording] (20:32:15.485) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
+[Info   : Unity Log] [Dissonance:Network] (20:32:15.488) ConnectionNegotiator`1: Received handshake response from server, joined session '1350623563'
+[Warning:    LC_API] Asking all other players for their mod list..
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
+Stack trace:
+LC_API.ServerAPI.Networking.Broadcast (System.String data, System.String signature) (at <1d4470c097674cedbcb410fb5631a32b>:IL_006A)
+LC_API.CheatDatabase.OtherPlayerCheatDetector () (at <1d4470c097674cedbcb410fb5631a32b>:IL_002D)
+LC_API.Comp.LC_APIManager.CD () (at <1d4470c097674cedbcb410fb5631a32b>:IL_0000)
+LC_API.Comp.LC_APIManager.Update () (at <1d4470c097674cedbcb410fb5631a32b>:IL_0106)
+
+[Info   : Unity Log] [Dissonance:Network] (20:32:19.908) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (20:32:19.920) NfgoServer: Disconnected
 [Debug  :Custom Boombox Music] Preparing to load AudioClips...
 [Info   :MoonOfTheDay] Inserting moons in StartOfRound...
 [Info   :MoonOfTheDay] Highest vanilla level ID is 8
+[Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to AssuranceLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to VowLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to MarchLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to RendLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to DineLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to OffenseLevel with SpawnType [Default]
+[Info   : LethalLib] Added Boomba to TitanLevel with SpawnType [Default]
+[Info   : LethalLib] LethalThings registered item: Arson Plush
+[Info   : LethalLib] LethalThings registered item: Cookie Fumo
+[Info   : LethalLib] LethalThings registered item: Toimari Plush
+[Info   : LethalLib] LethalThings registered item: Hämis Plush
+[Info   : LethalLib] LethalThings registered item: Dirty Arson Plush
+[Info   : LethalLib] LethalThings registered item: Maxwell
+[Info   : LethalLib] LethalThings registered item: Rocket Launcher
+[Info   : LethalLib] LethalThings registered item: Toy Hammer
+[Info   : LethalLib] LethalThings registered item: Remote Radar
+[Info   : LethalLib] LethalThings registered item: Utility Belt
+[Info   : LethalLib] LethalThings registered item: Hacking Tool
+[Info   : LethalLib] Adding 3 unlockables to unlockables list
+[Info   : LethalLib] Added TeleporterTrap to ExperimentationLevel
+[Info   : LethalLib] Added TeleporterTrap to AssuranceLevel
+[Info   : LethalLib] Added TeleporterTrap to VowLevel
+[Info   : LethalLib] Added TeleporterTrap to MarchLevel
+[Info   : LethalLib] Added TeleporterTrap to RendLevel
+[Info   : LethalLib] Added TeleporterTrap to DineLevel
+[Info   : LethalLib] Added TeleporterTrap to OffenseLevel
+[Info   : LethalLib] Added TeleporterTrap to TitanLevel
 [Info   : Unity Log] Enabling connection callbacks in StartOfRound
 [Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
 [Warning:BrutalCompanyPlus] Modifying the Starting Quota Values based on Config
+[Info   : LethalLib] Adding 5 items to terminal
+[Info   : LethalLib] LethalThings registered item: Rocket Launcher
+[Info   : LethalLib] LethalThings registered item: Toy Hammer
+[Info   : LethalLib] LethalThings registered item: Remote Radar
+[Info   : LethalLib] LethalThings registered item: Utility Belt
+[Info   : LethalLib] LethalThings registered item: Hacking Tool
 [Debug  :MoonOfTheDay] Inserting moons in Terminal...
 [Debug  :MoonOfTheDay] Modifying terminal nodes...
 [Debug  :MoonOfTheDay] Adding terminal command for Daily Moon...
 [Debug  :MoonOfTheDay] Added terminal command for Daily Moon.
 [Debug  :MoonOfTheDay] Adding terminal command for Weekly Moon...
 [Debug  :MoonOfTheDay] Added terminal command for Weekly Moon.
+[Info   : LethalLib] Adding 3 items to terminal
+[Info   : LethalLib] LethalThings registered item: Small Rug
+[Info   : LethalLib] LethalThings registered item: Large Rug
+[Info   : LethalLib] LethalThings registered item: Fatalities Sign
+[Info   : LethalLib] Adding 5 items to terminal
+[Info   : LethalLib] Item Rocket Launcher already exists in terminal, skipping
+[Info   : LethalLib] Item Toy Hammer already exists in terminal, skipping
+[Info   : LethalLib] Item Remote Radar already exists in terminal, skipping
+[Info   : LethalLib] Item Utility Belt already exists in terminal, skipping
+[Info   : LethalLib] Item Hacking Tool already exists in terminal, skipping
+[Debug  :MoonOfTheDay] Inserting moons in Terminal...
+[Debug  :MoonOfTheDay] Terminal nodes have already been modified.
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BaboonHawk VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BunkerSpider VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Centipede VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_CoilHead VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_EyelessDog VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_ForestGiant VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GhostGirl VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GiantWorm VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_HoardingBug VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Hygrodere VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Jester VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_SporeLizard VALUE CHANGED: [prev: True] [new: False]
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Thumper VALUE CHANGED: [prev: True] [new: False]
+[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
+[Info   : Unity Log] Initialized SkinwalkerNetworkManager
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 1
 [Info   : Unity Log] Overriding float
@@ -172,6 +365,7 @@ MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <0
 [Warning: Unity Log] KillTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
 [Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
 [Info   : Unity Log] # powered lights: 0
+[Info   : LethalLib] Added custom dungeons to levels
 [Info   :  Enhancer] StartOfRound Start
 [Info   : Unity Log] level id: 1
 [Info   : Unity Log] Changing level
@@ -193,6 +387,11 @@ MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <0
 [Info   : Unity Log] Item sales percentages #9: 0
 [Info   : Unity Log] Item sales percentages #10: 0
 [Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Item sales percentages #16: 0
 [Info   : Unity Log] Loading placed object position as: (8.48, 2.13, -12.21)
 [Info   : Unity Log] Saving placed position as: (8.48, 2.13, -12.21)
 [Info   : Unity Log] Placing scene object at saved position: Cupboard
@@ -206,33 +405,29 @@ MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <0
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   : Unity Log] DISABLE OBJECT A
-[Info   : Unity Log] DISABLE OBJECT A
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Error  : Unity Log] Error attempting to load ship unlockables on the host: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <787acc3c9a4c471ba7d971300105af24>:IL_0009 
+  at StartOfRound.LoadUnlockables () [0x00035] in <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0035 
 [Info   : Unity Log] Ship grabbable items list loaded. Count: 42
-[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 28
 [Info   : Unity Log] Setting scrap value for item: SteeringWheel(Clone): 16
-[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 16
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Info   : Unity Log] Loading item save data for item: RadarBoosterDevice(Clone) (UnityEngine.GameObject): 8
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Info   : Unity Log] Setting scrap value for item: BigBolt(Clone): 28
+[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 28
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 16
+[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 55
 [Info   : Unity Log] Setting scrap value for item: CashRegisterItem(Clone): 106
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Info   : Unity Log] Setting scrap value for item: BigBolt(Clone): 28
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Info   : Unity Log] Setting scrap value for item: RubberDucky(Clone): 12
-[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 55
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Info   :  Enhancer] Setting unlocked suits this round
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
@@ -250,8 +445,13 @@ MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <0
 [Info   : Unity Log] Item sales percentages #9: 0
 [Info   : Unity Log] Item sales percentages #10: 0
 [Info   : Unity Log] Item sales percentages #11: 0
-[Info   : Unity Log] Group credits: 1484
-[Info   : Unity Log] [Dissonance:Core] (18:38:14.801) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Item sales percentages #16: 0
+[Info   : Unity Log] Group credits: 0
+[Info   : Unity Log] [Dissonance:Core] (20:32:23.523) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
@@ -291,325 +491,118 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
-[Info   : Unity Log] Item start falling position: (-4.63, 1.47, -5.11)
-[Info   : Unity Log] Item start falling position: (-4.59, 1.59, -5.46)
+[Info   : Unity Log] Item start falling position: (-4.00, 0.46, -5.45)
+[Info   : Unity Log] Item start falling position: (2.80, 0.01, -5.68)
+[Info   : Unity Log] Item start falling position: (5.12, 0.03, -4.62)
+[Info   : Unity Log] Item start falling position: (3.31, 0.08, -9.00)
+[Info   : Unity Log] Item start falling position: (-3.21, 0.06, -5.60)
+[Info   : Unity Log] Item start falling position: (7.94, 0.02, -6.09)
+[Info   : Unity Log] Item start falling position: (3.34, 0.06, -7.89)
+[Info   : Unity Log] Item start falling position: (-3.90, 0.10, -5.56)
+[Info   : Unity Log] Item start falling position: (7.29, 0.03, -4.81)
+[Info   : Unity Log] Item start falling position: (2.97, 0.06, -5.91)
+[Info   : Unity Log] Item start falling position: (-4.41, 1.14, -5.12)
+[Info   : Unity Log] Item start falling position: (-4.51, 0.08, -5.51)
 [Info   : Unity Log] Item start falling position: (-2.61, -0.04, -5.78)
 [Info   : Unity Log] dropping item did not get raycast : Dustpan(Clone)
-[Info   : Unity Log] Item start falling position: (3.34, 0.10, -7.87)
-[Info   : Unity Log] Item start falling position: (2.80, 0.05, -5.68)
-[Info   : Unity Log] Item start falling position: (2.63, 0.00, -5.50)
-[Info   : Unity Log] Item start falling position: (-4.51, 0.24, -5.51)
-[Info   : Unity Log] Item start falling position: (5.12, 0.07, -4.62)
-[Info   : Unity Log] Item start falling position: (-4.00, 2.29, -5.45)
-[Info   : Unity Log] Item start falling position: (-3.20, 1.47, -5.38)
-[Info   : Unity Log] Item start falling position: (-3.90, 2.15, -5.56)
-[Info   : Unity Log] Item start falling position: (5.53, 0.07, -4.46)
-[Info   : Unity Log] Item start falling position: (-3.69, 1.57, -5.59)
-[Info   : Unity Log] Item start falling position: (3.31, 0.12, -9.00)
-[Info   : Unity Log] Item start falling position: (7.94, 0.06, -6.09)
-[Info   : Unity Log] Item start falling position: (5.24, 0.07, -4.68)
-[Info   : Unity Log] Item start falling position: (3.58, 0.07, -7.14)
-[Info   : Unity Log] Item start falling position: (2.97, 0.10, -5.91)
-[Info   : Unity Log] Item start falling position: (8.42, 0.15, -9.14)
-[Info   : Unity Log] Item start falling position: (-4.41, 1.47, -5.12)
+[Info   : Unity Log] Item start falling position: (-3.81, 0.06, -5.54)
+[Info   : Unity Log] Item start falling position: (-4.63, 1.14, -5.11)
+[Info   : Unity Log] Item start falling position: (2.63, -0.04, -5.50)
+[Info   : Unity Log] dropping item did not get raycast : Dustpan(Clone)
+[Info   : Unity Log] Item start falling position: (-4.56, 0.10, -5.52)
+[Info   : Unity Log] Item start falling position: (5.68, 0.06, -6.01)
+[Info   : Unity Log] Item start falling position: (-4.59, 0.44, -5.46)
+[Info   : Unity Log] Item start falling position: (5.24, 0.03, -4.68)
+[Info   : Unity Log] Item start falling position: (8.42, 0.11, -9.14)
+[Info   : Unity Log] Item start falling position: (0.61, 0.02, -7.99)
+[Info   : Unity Log] Item start falling position: (1.78, 0.06, -7.30)
+[Info   : Unity Log] Item start falling position: (4.31, 0.11, -8.13)
+[Debug  :Custom Boombox Music] Applying clips!
+[Debug  :Custom Boombox Music] Total Clip Count: 5
+[Info   : Unity Log] Item start falling position: (7.28, 0.89, -4.70)
+[Info   : Unity Log] Item start falling position: (-3.41, 0.06, -5.59)
+[Info   : Unity Log] Item start falling position: (6.52, 0.21, -5.99)
+[Info   : Unity Log] Item start falling position: (3.34, 0.06, -7.87)
+[Info   : Unity Log] Item start falling position: (-3.20, 0.06, -5.41)
+[Info   : Unity Log] Item start falling position: (-4.65, 0.46, -5.43)
 [Info   : Unity Log] Item start falling position: (8.23, 0.02, -7.92)
-[Info   : Unity Log] Item start falling position: (-3.21, 1.46, -5.60)
-[Info   : Unity Log] Item start falling position: (3.92, 0.15, -8.65)
-[Debug  :Custom Boombox Music] Applying clips!
-[Debug  :Custom Boombox Music] Total Clip Count: 5
-[Info   : Unity Log] Item start falling position: (6.52, 0.25, -5.99)
-[Info   : Unity Log] Item start falling position: (8.31, 1.40, -7.86)
-[Info   : Unity Log] Item start falling position: (7.28, 0.74, -4.70)
-[Info   : Unity Log] Item start falling position: (5.68, 0.10, -6.01)
-[Info   : Unity Log] Item start falling position: (-4.25, 1.59, -5.18)
-[Info   : Unity Log] Item start falling position: (-4.56, 2.15, -5.52)
-[Info   : Unity Log] Item start falling position: (1.67, 0.12, -8.25)
-[Info   : Unity Log] Item start falling position: (-3.41, 1.46, -5.59)
-[Info   : Unity Log] Item start falling position: (-4.65, 2.29, -5.43)
-[Info   : Unity Log] Item start falling position: (-3.20, 1.47, -5.41)
-[Info   : Unity Log] Item start falling position: (-4.63, 1.47, -5.13)
-[Info   : Unity Log] Item start falling position: (-3.81, 1.57, -5.54)
-[Info   : Unity Log] Item start falling position: (-3.47, 1.57, -5.33)
-[Info   : Unity Log] Item start falling position: (4.31, 0.15, -8.13)
-[Debug  :Custom Boombox Music] Applying clips!
-[Debug  :Custom Boombox Music] Total Clip Count: 5
-[Info   : Unity Log] Item start falling position: (1.78, 0.10, -7.30)
-[Info   : Unity Log] Item start falling position: (-3.19, 2.15, -5.19)
+[Info   : Unity Log] Item start falling position: (5.53, 0.03, -4.46)
+[Info   : Unity Log] Item start falling position: (-3.20, 0.06, -5.38)
+[Info   : Unity Log] Item start falling position: (-4.63, 1.14, -5.13)
+[Info   : Unity Log] Item start falling position: (-4.25, 1.62, -5.18)
+[Info   : Unity Log] Item start falling position: (2.37, -0.04, -4.72)
+[Info   : Unity Log] dropping item did not get raycast : RubberDucky(Clone)
 [Info   : Unity Log] Seed: 11668854 + 1 + 0
-[Info   : Unity Log] Item start falling position: (3.34, 0.10, -7.89)
-[Info   : Unity Log] Item start falling position: (7.29, 0.03, -4.81)
-[Info   : Unity Log] Item start falling position: (0.61, 0.06, -7.99)
+[Info   : Unity Log] Item start falling position: (3.92, 0.11, -8.65)
+[Debug  :Custom Boombox Music] Applying clips!
+[Debug  :Custom Boombox Music] Total Clip Count: 5
+[Info   : Unity Log] Item start falling position: (3.58, 0.03, -7.14)
+[Info   : Unity Log] Item start falling position: (1.67, 0.08, -8.25)
+[Info   : Unity Log] Item start falling position: (-3.47, 0.42, -5.33)
+[Info   : Unity Log] Item start falling position: (8.31, 1.40, -7.86)
+[Info   : Unity Log] Item start falling position: (-3.69, 0.06, -5.59)
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Info   : Unity Log] Started spectating
-[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 18!
-[Info   : Unity Log] [Dissonance:Network] (18:38:16.097) NfgoServer: Created server with SessionId:146816873
-[Info   : Unity Log] [Dissonance:Network] (18:38:16.099) NfgoServer: Connected
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 19!
+[Info   : Unity Log] [Dissonance:Network] (20:32:23.776) NfgoServer: Created server with SessionId:148221190
+[Info   : Unity Log] [Dissonance:Network] (20:32:23.783) NfgoServer: Connected
 [Info   : Unity Log] Dropping item at rot: -90, 90, 0
 [Info   : Unity Log] Dropping item at rot: -90, 90, 0
 [Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Info   : Unity Log] Dropping item at rot: -21, 90, 0
-[Info   : Unity Log] Dropping item at rot: -90, 130, 40
-[Info   : Unity Log] Dropping item at rot: -90, 0, -90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: -90, 130, 40
+[Info   : Unity Log] Dropping item at rot: -21, 90, 0
+[Info   : Unity Log] Dropping item at rot: -90, 0, -90
 [Info   : Unity Log] Taking control of player Player and enabling camera!
 [Info   : Unity Log] Starting voice tracking for player: Gabe
 [Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
 [Info   : Unity Log] !!!! connectedPlayersAmount: 0
-[Info   : Unity Log] Dropping item at rot: 0, 90, -90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 0
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, -90
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, -90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 90, 0, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, -90
 [Info   : Unity Log] Dropping item at rot: 0, 90, -90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, -90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
 [Info   : Unity Log] Has beta?: {hasBeta}
 [Info   : Unity Log] Has beta save data: True
-[Info   : Unity Log] [Dissonance:Network] (18:38:17.188) ConnectionNegotiator`1: Received handshake response from server, joined session '146816873'
-[Warning: Unity Log] [Dissonance:Recording] (18:38:17.190) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.7494675)
-[Info   : Unity Log] [Dissonance:Recording] (18:38:17.212) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
-[Warning: Unity Log] [Dissonance:Recording] (18:38:17.349) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.1674411)
-[Info   : Unity Log] [Dissonance:Recording] (18:38:17.374) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Warning: Unity Log] [Dissonance:Recording] (18:38:17.742) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (18:38:17.762) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (18:38:17.781) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (18:38:17.804) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (18:38:17.820) BasePreprocessingPipeline: Preprocessor running slow! Iteration took:250ms for 18 frames
-[Warning: Unity Log] [Dissonance:Recording] (18:38:23.400) BasicMicrophoneCapture: Insufficient buffer space, requested 59040, clamped to 16383 (dropping 42657 samples)
-[Warning: Unity Log] [Dissonance:Recording] (18:38:23.402) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (18:38:23.403) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (18:38:23.405) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:1.233245)
-[Info   : Unity Log] [Dissonance:Recording] (18:38:23.433) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] Dustpan(Clone) - $28
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] SteeringWheel(Clone) - $16
-[Debug  :  ShipLoot] Dustpan(Clone) - $16
-[Debug  :  ShipLoot] BBFlashlight(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] RadarBoosterDevice(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] PatcherGunItem(Clone) - $0
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] Boombox(Clone) - $0
-[Debug  :  ShipLoot] BigBolt(Clone) - $28
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] CashRegisterItem(Clone) - $106
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] StunGrenade(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] Boombox(Clone) - $0
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] RubberDucky(Clone) - $12
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] Airhorn(Clone) - $55
-[Debug  :  ShipLoot] Calculating total ship scrap value.
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] Dustpan(Clone) - $28
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] SteeringWheel(Clone) - $16
-[Debug  :  ShipLoot] Dustpan(Clone) - $16
-[Debug  :  ShipLoot] BBFlashlight(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] RadarBoosterDevice(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] PatcherGunItem(Clone) - $0
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] Boombox(Clone) - $0
-[Debug  :  ShipLoot] BigBolt(Clone) - $28
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] CashRegisterItem(Clone) - $106
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] StunGrenade(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
-[Debug  :  ShipLoot] Boombox(Clone) - $0
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] RubberDucky(Clone) - $12
-[Debug  :  ShipLoot] ShovelItem(Clone) - $0
-[Debug  :  ShipLoot] Key(Clone) - $3
-[Debug  :  ShipLoot] Airhorn(Clone) - $55
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
+[Info   : Unity Log] [Dissonance:Network] (20:32:24.265) ConnectionNegotiator`1: Received handshake response from server, joined session '148221190'
+[Warning: Unity Log] [Dissonance:Recording] (20:32:24.267) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:4.133344)
+[Info   : Unity Log] [Dissonance:Recording] (20:32:24.283) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
+[Warning: Unity Log] [Dissonance:Recording] (20:32:24.344) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.283331)
+[Info   : Unity Log] [Dissonance:Recording] (20:32:24.366) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
 [Info   : Unity Log] PLAYER OPENED MENU
 [Info   : Unity Log] PLAYER OPENED MENU
 [Info   : Unity Log] PLAYER OPENED MENU
@@ -624,16 +617,60 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   : Unity Log] Saved data for item type: Radar-booster - 8
 [Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
 [Info   : Unity Log] [Netcode] Shutdown
-[Warning: Unity Log] [Dissonance:Recording] (18:38:34.856) BasicMicrophoneCapture: Insufficient buffer space, requested 29280, clamped to 16383 (dropping 12897 samples)
-[Warning: Unity Log] [Dissonance:Recording] (18:38:34.858) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (18:38:34.860) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (20:32:41.593) BasicMicrophoneCapture: Insufficient buffer space, requested 22080, clamped to 16383 (dropping 5697 samples)
+[Warning: Unity Log] [Dissonance:Recording] (20:32:41.594) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (20:32:41.594) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
 [Info   : Unity Log] [Netcode] ShutdownInternal
 [Info   : Unity Log] [FacepunchTransport] - Shutting down.
 [Info   : Unity Log] [Netcode] NetworkConnectionManager.Shutdown() -> IsListening && NetworkTransport != null -> NetworkTransport.Shutdown()
-[Info   : Unity Log] [Dissonance:Network] (18:38:35.059) NfgoClient: Disconnected
-[Info   : Unity Log] [Dissonance:Network] (18:38:35.061) NfgoServer: Disconnected
-[Info   : Unity Log] Resetting unlockables list!
+[Info   : Unity Log] [Dissonance:Network] (20:32:41.646) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (20:32:41.647) NfgoServer: Disconnected
+[Info   : Unity Log] CONDITIONALLY resetting unlockables list!
+[Info   :Persistent Purchases] Not resetting 0 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 1 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 2 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 3 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 4 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 5 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 6 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 7 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 8 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 9 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 10 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 11 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 12 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 13 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 14 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 15 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 16 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 17 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 18 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 19 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 20 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 21 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 22 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 23 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 24 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 25 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 26 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 27 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 28 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 29 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 30 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 31 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 32 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 33 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 34 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 35 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 36 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 37 dontResetAnything
 [Info   : Unity Log] Scene manager is null
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (1) is being destroyed while NetworkObject-Player (1) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (2) is being destroyed while NetworkObject-Player (2) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (3) is being destroyed while NetworkObject-Player (3) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (4) is being destroyed while NetworkObject-Player (4) is still spawned! (could break state synchronization)
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (5) is being destroyed while NetworkObject-Player (5) is still spawned! (could break state synchronization)
 [Info   : Unity Log] Terminal disabled, disabling ESC key listener
 [Info   : Unity Log] DISABLING connection callbacks in round manager
 [Info   : Unity Log] Set version num
@@ -643,8 +680,20 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   : Unity Log] Gamma changed
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
 [Info   : Unity Log] T
-[Info   : Unity Log] [Dissonance:Core] (18:38:35.795) DissonanceComms: Loading default playback prefab
-[Info   : Unity Log] [Dissonance:Core] (18:38:35.799) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] [Dissonance:Core] (20:32:41.828) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (20:32:41.830) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
+[Info   : Unity Log] [Netcode] ShutdownInternal
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   : Unity Log] Server is not active; quitting to main menu
+[Info   : Unity Log] Set version num
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 1
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
+[Info   : Unity Log] T
+[Info   : Unity Log] unsubscribing from steam callbacks
