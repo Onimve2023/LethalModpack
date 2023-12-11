@@ -8,19 +8,13 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.1.0]
 [Info   :   BepInEx] 2 patcher plugins loaded
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
-[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
-[Info   :   Console] [MonoMod] 
-[Info   :   Console] Reading input file into module.
-[Info   :HookGenPatcher] Starting HookGenerator
-[Info   :HookGenPatcher] Done.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
+[Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
@@ -29,13 +23,13 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 25 plugins to load
+[Info   :   BepInEx] 37 plugins to load
 [Warning:   BepInEx] Plugin [Custom Boombox Music 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [MoreEmotes-Sligili 1.1.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Health Station mod 1.0.0.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Skinwalker Mod 1.0.7] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Too Many Suits 1.0.3] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Lethal Escape 0.5] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [SCP_173 1.1.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Info   :   BepInEx] Loading [Persistent Purchases 1.1.0]
 [Warning:Persistent Purchases] Beginning transpilation of GameNetworkManager.ResetSavedGameValues()
 [Info   :Persistent Purchases] Found ship object opcode at 62
@@ -54,21 +48,6 @@
 [Info   :BetterTeleporter] Plugin BetterTeleporter is loaded!
 [Info   :   BepInEx] Loading [BrutalCompanyPlus 3.2.0]
 [Warning:BrutalCompanyPlus] Loaded Brutal Company Plus and applying patches.
-[Info   :   BepInEx] Loading [ShipLoot 1.0]
-[Info   :   BepInEx] Loading [Custom Boombox Music 1.0.0]
-[Debug  :Custom Boombox Music] Initializing config...
-[Debug  :Custom Boombox Music] Config initialized!
-[Info   :   BepInEx] Loading [LethalLib 0.6.0]
-[Info   : LethalLib] LethalLib loaded!!
-[Info   :   BepInEx] Loading [LethalThings 0.6.0]
-[Info   :LethalThings] Loaded asset bundle
-[Info   :LethalThings] Registering shop item RocketLauncher with price 260
-[Info   :LethalThings] Registering shop item ToyHammer with price 80
-[Info   :LethalThings] Registering shop item RemoteRadar with price 240
-[Info   :LethalThings] Registering shop item PouchyBelt with price 290
-[Info   :LethalThings] Registering shop item HackingTool with price 190
-[Info   :LethalThings] Custom content loaded!
-[Info   :LethalThings] LethalThings loaded guh
 [Info   :   BepInEx] Loading [LC_API 2.1.1]
 [Warning:    LC_API] 
 .____    _________           _____  __________ .___  
@@ -79,8 +58,12 @@
         \/       \//_____/        \/                 
                                                      
 [Info   :    LC_API] LC_API Starting up..
-[Info   :   BepInEx] Loading [LethalCompanyDRP 1.0.0]
-[Info   :LethalCompanyDRP] Started LethalCompanyDRP
+[Info   :   BepInEx] Loading [Coroner 1.0.0]
+[Info   :   Coroner] Plugin Coroner (com.elitemastereric.coroner) is loaded!
+[Info   :   Coroner] Checking for LC_API...
+[Info   :   Coroner] LCAPI is present! LC_API:2.1.1
+[Info   :   Coroner] Initializing DeathBroadcaster...
+[Info   :   Coroner] LC_API is present! Registering signature...
 [Info   :   BepInEx] Loading [MoreCompany 1.7.1]
 [Info   :MoreCompany] Loading MoreCompany...
 [Info   :MoreCompany] Checking: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins/MoreCompanyCosmetics
@@ -107,6 +90,78 @@
 [Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle
 [Info   :MoreCompany] Loading USER COSMETICS...
+[Info   :   BepInEx] Loading [EliteMasterEric's Wacky Cosmetics 1.0.0]
+[Info   :EliteMasterEric's Wacky Cosmetics] Plugin EliteMasterEric's Wacky Cosmetics (com.elitemastereric.wackycosmetics) is loaded!
+[Info   :EliteMasterEric's Wacky Cosmetics] Generating config entries for Wacky cosmetics.
+[Info   :EliteMasterEric's Wacky Cosmetics] Loading Wacky cosmetics.
+[Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.burningflamesteamcaptain
+[Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.maxwell
+[Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.oscar
+[Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.tbhcreature
+[Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.toweringpillarofhats
+[Info   :EliteMasterEric's Wacky Cosmetics] Loaded Wacky cosmetic: wackycosmetics.valkyriehelm
+[Info   :   BepInEx] Loading [ShipLoot 1.0]
+[Info   :   BepInEx] Loading [Custom Boombox Music 1.0.0]
+[Debug  :Custom Boombox Music] Initializing config...
+[Debug  :Custom Boombox Music] Config initialized!
+[Info   :   BepInEx] Loading [Custom Sounds 1.3.0]
+[Info   :CustomSounds] Plugin CustomSounds is loaded!
+[Info   :CustomSounds] "hideManagerGameObject" value not correctly set. Fixing it now.
+[Info   :   BepInEx] Loading [EmployeeAssignments 1.0.3]
+[Info   :   BepInEx] Loading [LethalLib 0.6.0]
+[Info   : LethalLib] LethalLib loaded!!
+[Info   :   BepInEx] Loading [LethalThings 0.6.0]
+[Info   :LethalThings] Loaded asset bundle
+[Info   :LethalThings] Registering shop item RocketLauncher with price 260
+[Info   :LethalThings] Registering shop item ToyHammer with price 80
+[Info   :LethalThings] Registering shop item RemoteRadar with price 240
+[Info   :LethalThings] Registering shop item PouchyBelt with price 290
+[Info   :LethalThings] Registering shop item HackingTool with price 190
+[Info   :LethalThings] Custom content loaded!
+[Info   :LethalThings] LethalThings loaded guh
+[Info   :   BepInEx] Loading [HotbarPlus 1.3.1]
+[Info   :HotbarPlus] BindingConfigs
+[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type GameNetcodeStuff.PlayerControllerB and name ScrollMouse_performed and parameters 
+[Error  : Unity Log] ArgumentException: Undefined target method for patch method static System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction> HotbarPlus.Patches.PlayerPatcher::PatchSwitchItemInterval(System.Collections.Generic.IEnumerable<HarmonyLib.CodeInstruction> instructions)
+Stack trace:
+HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047)
+HarmonyLib.PatchClassProcessor.Patch () (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_006A)
+Rethrow as HarmonyException: Patching exception in method null
+HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_006C)
+HarmonyLib.PatchClassProcessor.Patch () (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_0095)
+HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_0007)
+HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_0014)
+HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_0006)
+HarmonyLib.Harmony.PatchAll () (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_001B)
+HotbarPlus.Plugin.Awake () (at <99777ddddedc422599648e36a4ce77db>:IL_001D)
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
+
+[Info   :   BepInEx] Loading [MoreBlood 1.0.2]
+[Info   : MoreBlood] BindingConfigs
+[Info   : MoreBlood] MoreBlood loaded
+[Info   :   BepInEx] Loading [LethalExtras 1.0.4]
+[Info   :lethalextras] Plugin LethalExtras is loaded!
+[Info   :lethalextras] Loading item: Blahaj
+[Info   :lethalextras] Loading item: Red Argemia Plush
+[Info   :lethalextras] Loading item: Blue Argemia Plush
+[Info   :lethalextras] Loading item: Green Argemia Plush
+[Info   :lethalextras] Loading item: Maxwell
+[Info   :lethalextras] Adding to scrap pool: Maxwell
+[Info   :lethalextras] Loading unlockable: Medstation
+[Info   :   BepInEx] Loading [LCBetterSaves 1.4.0]
+[Info   :LCBetterSaves] Plugin LCBetterSaves is loaded!
+[Info   :   BepInEx] Loading [LC Sound Tool 1.3.0]
+[Info   :LCSoundTool] Plugin LCSoundTool is loaded!
+[Debug  :LCSoundTool] Loading SoundTool AssetBundle...
+[Debug  :LCSoundTool] Finished loading SoundTool AssetBundle!
+[Info   :   BepInEx] Loading [LethalCompanyDRP 1.0.0]
+[Info   :LethalCompanyDRP] Started LethalCompanyDRP
+[Info   :   BepInEx] Loading [LethalPaintings 1.0.0]
+[Info   :LethalPaintings] Plugin LethalPaintings is loaded!
+[Info   :   BepInEx] Loading [LRCCosmetics 1.0.0]
+[Info   :LRCCosmetics] Plugin LRCCosmetics is loaded!
 [Info   :   BepInEx] Loading [Enhancer 0.1.4]
 [Info   :  Enhancer] Enabled, patching now
 [Info   :  Enhancer] Doing suit patches
@@ -119,34 +174,25 @@
 [Info   :MoreEmotes-Sligili] MoreEmotes loaded
 [Info   :   BepInEx] Loading [Health Station mod 1.0.0.1]
 [Info   :Octolar.Healthstation] Octolar HealthStation mod is now active
+[Info   :   BepInEx] Loading [SCP_173 1.1.1]
+[Info   :   SCP_173] Successfully loaded assets.
+[Info   :   SCP_173] Plugin raydenoir.SCP_173 is loaded!
 [Info   :   BepInEx] Loading [Flashlight 1.2.0]
 [Info   :Flashlight] ------Flashlight done.------
 [Info   :   BepInEx] Loading [WalkieUse 1.0.1]
 [Info   : WalkieUse] ------Walkie done.------
-[Info   :   BepInEx] Loading [Skinwalker Mod 1.0.7]
-[Info   :RugbugRedfern.SkinwalkerMod] SKINWALKER MOD STARTING UP 1.0.7
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BaboonHawk VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Bracken VALUE LOADED FROM CONFIG: [True]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BunkerSpider VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Centipede VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_CoilHead VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_EyelessDog VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_ForestGiant VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GhostGirl VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GiantWorm VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_HoardingBug VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Hygrodere VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Jester VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_SporeLizard VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Thumper VALUE LOADED FROM CONFIG: [False]
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [1]
-[Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
 [Info   :   BepInEx] Loading [BrutalCompanyAdditions 1.1.1]
 [Info   :BrutalCompanyAdditions] Event Bling bling is enabled.
 [Info   :BrutalCompanyAdditions] Event Got any stock? is enabled.
 [Warning:BrutalCompanyAdditions] Time to rule the world! >:]
 [Info   :   BepInEx] Loading [Solo's Bodycams 1.0]
 [Info   :Solo's Bodycams] Plugin SolosBodycams is loaded!
+[Info   :   BepInEx] Loading [BlackMesaInternTransferProgram 1.1.0]
+[Info   :BlackMesaInternTransferProgram] Plugin SoulWithMae.BlackMesaInternTransferProgram is loaded as version 1.1.0!
+[Info   :BlackMesaInternTransferProgram] Loading embedded resource data BlackMesaInternTransferProgram.Resources.Audio.bundle...
+[Info   :BlackMesaInternTransferProgram] Sending assetBundle data to memory...
+[Info   :BlackMesaInternTransferProgram] Loading assetBundle from data, please be patient...
+[Info   :BlackMesaInternTransferProgram] Done!
 [Info   :   BepInEx] Loading [Yippee tbh mod 1.2.1]
 [Info   :sunnobunno.YippeeMod] Yippee Mod is loading.
 [Info   :sunnobunno.YippeeMod] C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\yippeesound
@@ -168,6 +214,7 @@
 [Info   :GameMaster] Loaded xCeezy.LethalEscape. Patching.
 [Message:   BepInEx] Chainloader startup complete
 [Info   :LethalCompanyDRP] Discord RPC Started
+[Warning: Unity Log] dxgi: swapchain SetFullscreenState failed (887a0022).
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 1
 [Info   : Unity Log] Overriding float
@@ -177,11 +224,15 @@
 [Warning:BrutalCompanyPlus] Brutal Plus is Awake
 [Message:    LC_API] BundleAPI will now load all asset bundles...
 [Message:    LC_API] BundleAPI got no assets to load from legacy directory
-[Message:    LC_API] BundleAPI got 6 AssetBundles to load!
+[Message:    LC_API] BundleAPI got 46 AssetBundles to load!
+[Message:    LC_API] Got asset for load: assets/audionetworkhandler.prefab
+[Message:    LC_API] Loaded asset: AudioNetworkHandler
 [Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\suitselect' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\suitselect
 [Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\yippeesound' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\yippeesound
+[Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalExtras\lethalextras' can't be loaded because another AssetBundle with the same files is already loaded.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalExtras\lethalextras
 [Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalThings\lethalthings' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\LethalThings\lethalthings
 [Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/LethalThings/LethalThings.pdb
@@ -191,12 +242,319 @@
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animationsbundle
 [Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animatorbundle' can't be loaded because another AssetBundle with the same files is already loaded.
 [Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animatorbundle
+[Error  : Unity Log] The AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\SCP173\scp173' can't be loaded because another AssetBundle with the same files is already loaded.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\SCP173\scp173
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/0DaysLeftAlert.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\0DaysLeftAlert.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\0DaysLeftAlert.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/Angered.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Angered.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Angered.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/BellChimeAmbience.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\BellChimeAmbience.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\BellChimeAmbience.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/ChargeItem.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ChargeItem.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ChargeItem.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/ClownHorn1.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHorn1.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHorn1.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/ClownHornFar.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHornFar.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHornFar.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/CrackNeck.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\CrackNeck.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\CrackNeck.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/DieFromFallDamageSFX1.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DieFromFallDamageSFX1.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DieFromFallDamageSFX1.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/DropBell.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropBell.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropBell.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/DropGlass1.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropGlass1.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropGlass1.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/DropMetalObject3.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropMetalObject3.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropMetalObject3.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/DropRubberDuck.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropRubberDuck.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropRubberDuck.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/DuckQuack.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DuckQuack.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DuckQuack.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/FGiantEatPlayerSFX.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\FGiantEatPlayerSFX.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\FGiantEatPlayerSFX.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/GhostDevicePing.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GhostDevicePing.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GhostDevicePing.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/GlassShatter.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GlassShatter.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GlassShatter.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/growl.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\growl.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\growl.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/HeightDamage.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HeightDamage.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HeightDamage.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/HitCrawler.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/HitCrawler2.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler2.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler2.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/HitPlayerSFX.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitPlayerSFX.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitPlayerSFX.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/IcecreamTruckFar.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckFar.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckFar.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/IcecreamTruckV2.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckV2.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckV2.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/JackInTheBoxTheme.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\JackInTheBoxTheme.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\JackInTheBoxTheme.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/MineTrigger.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\MineTrigger.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\MineTrigger.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/Pop1.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Pop1.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Pop1.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/ReleaseHelmetGas.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ReleaseHelmetGas.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ReleaseHelmetGas.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/Roar.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Roar.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Roar.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/Scream1.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Scream1.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Scream1.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/Spring1.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring1.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring1.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/Spring2.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring2.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring2.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/Spring3.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring3.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring3.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/TakeDamage.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TakeDamage.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TakeDamage.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/TerminalTypoError.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TerminalTypoError.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TerminalTypoError.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/TurretActivate.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretActivate.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretActivate.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/TurretDeactivate.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretDeactivate.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretDeactivate.wav
+[Error  : Unity Log] Unable to read header from archive file: C:/Program Files (x86)/Steam/steamapps/common/Lethal Company/BepInEx/plugins/CustomSounds/EpicMemeSoundPack/TurretSeePlayer.wav
+[Error  : Unity Log] Failed to read data for the AssetBundle 'C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretSeePlayer.wav'.
+[Error  :    LC_API] Failed to load an assetbundle! Path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretSeePlayer.wav
 [Message:    LC_API] BundleAPI finished loading all assets.
 [Message:    LC_API] BundleAPI finished loading all assets.
 [Info   :    LC_API] LC_API Started!
 [Message:    LC_API] A plugin has set your game to only allow you to play with other people who have mods!
+[Info   :CustomSounds] Temporary folder: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Temp
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\0DaysLeftAlert.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\0DaysLeftAlert.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\0DaysLeftAlert.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\0DaysLeftAlert.wav with length of 17.061!
+[Info   :CustomSounds] [EpicMemeSoundPack] 0DaysLeftAlert sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Angered.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Angered.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Angered.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Angered.wav with length of 21.435!
+[Info   :CustomSounds] [EpicMemeSoundPack] Angered sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\BellChimeAmbience.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\BellChimeAmbience.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\BellChimeAmbience.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\BellChimeAmbience.wav with length of 8.01!
+[Info   :CustomSounds] [EpicMemeSoundPack] BellChimeAmbience sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ChargeItem.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ChargeItem.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ChargeItem.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ChargeItem.wav with length of 2.107!
+[Info   :CustomSounds] [EpicMemeSoundPack] ChargeItem sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHorn1.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHorn1.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHorn1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHorn1.wav with length of 0.46!
+[Info   :CustomSounds] [EpicMemeSoundPack] ClownHorn1 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHornFar.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHornFar.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHornFar.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ClownHornFar.wav with length of 1.329!
+[Info   :CustomSounds] [EpicMemeSoundPack] ClownHornFar sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\CrackNeck.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\CrackNeck.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\CrackNeck.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\CrackNeck.wav with length of 1.381!
+[Info   :CustomSounds] [EpicMemeSoundPack] CrackNeck sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DieFromFallDamageSFX1.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DieFromFallDamageSFX1.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DieFromFallDamageSFX1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DieFromFallDamageSFX1.wav with length of 2.328!
+[Info   :CustomSounds] [EpicMemeSoundPack] DieFromFallDamageSFX1 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropBell.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropBell.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropBell.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropBell.wav with length of 1.731!
+[Info   :CustomSounds] [EpicMemeSoundPack] DropBell sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropGlass1.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropGlass1.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropGlass1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropGlass1.wav with length of 1.51!
+[Info   :CustomSounds] [EpicMemeSoundPack] DropGlass1 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropMetalObject3.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropMetalObject3.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropMetalObject3.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropMetalObject3.wav with length of 2.613!
+[Info   :CustomSounds] [EpicMemeSoundPack] DropMetalObject3 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropRubberDuck.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropRubberDuck.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropRubberDuck.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DropRubberDuck.wav with length of 0.194!
+[Info   :CustomSounds] [EpicMemeSoundPack] DropRubberDuck sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DuckQuack.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DuckQuack.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DuckQuack.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\DuckQuack.wav with length of 0.194!
+[Info   :CustomSounds] [EpicMemeSoundPack] DuckQuack sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\FGiantEatPlayerSFX.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\FGiantEatPlayerSFX.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\FGiantEatPlayerSFX.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\FGiantEatPlayerSFX.wav with length of 6.06!
+[Info   :CustomSounds] [EpicMemeSoundPack] FGiantEatPlayerSFX sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GhostDevicePing.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GhostDevicePing.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GhostDevicePing.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GhostDevicePing.wav with length of 2.152!
+[Info   :CustomSounds] [EpicMemeSoundPack] GhostDevicePing sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GlassShatter.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GlassShatter.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GlassShatter.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\GlassShatter.wav with length of 1.51!
+[Info   :CustomSounds] [EpicMemeSoundPack] GlassShatter sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\growl.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\growl.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\growl.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\growl.wav with length of 8.033!
+[Info   :CustomSounds] [EpicMemeSoundPack] growl sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HeightDamage.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HeightDamage.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HeightDamage.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HeightDamage.wav with length of 0.637!
+[Info   :CustomSounds] [EpicMemeSoundPack] HeightDamage sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler.wav with length of 2.013!
+[Info   :CustomSounds] [EpicMemeSoundPack] HitCrawler sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler2.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler2.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitCrawler2.wav with length of 2.156!
+[Info   :CustomSounds] [EpicMemeSoundPack] HitCrawler2 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitPlayerSFX.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitPlayerSFX.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitPlayerSFX.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\HitPlayerSFX.wav with length of 0.369!
+[Info   :CustomSounds] [EpicMemeSoundPack] HitPlayerSFX sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckFar.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckFar.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckFar.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckFar.wav with length of 12.18!
+[Info   :CustomSounds] [EpicMemeSoundPack] IcecreamTruckFar sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckV2.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckV2.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckV2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\IcecreamTruckV2.wav with length of 12.18!
+[Info   :CustomSounds] [EpicMemeSoundPack] IcecreamTruckV2 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\JackInTheBoxTheme.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\JackInTheBoxTheme.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\JackInTheBoxTheme.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\JackInTheBoxTheme.wav with length of 44.072!
+[Info   :CustomSounds] [EpicMemeSoundPack] JackInTheBoxTheme sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\MineTrigger.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\MineTrigger.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\MineTrigger.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\MineTrigger.wav with length of 0.86!
+[Info   :CustomSounds] [EpicMemeSoundPack] MineTrigger sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Pop1.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Pop1.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Pop1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Pop1.wav with length of 1.636!
+[Info   :CustomSounds] [EpicMemeSoundPack] Pop1 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ReleaseHelmetGas.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ReleaseHelmetGas.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ReleaseHelmetGas.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\ReleaseHelmetGas.wav with length of 2.089!
+[Info   :CustomSounds] [EpicMemeSoundPack] ReleaseHelmetGas sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Roar.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Roar.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Roar.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Roar.wav with length of 2.635!
+[Info   :CustomSounds] [EpicMemeSoundPack] Roar sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Scream1.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Scream1.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Scream1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Scream1.wav with length of 27.47!
+[Info   :CustomSounds] [EpicMemeSoundPack] Scream1 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring1.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring1.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring1.wav with length of 3.82!
+[Info   :CustomSounds] [EpicMemeSoundPack] Spring1 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring2.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring2.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring2.wav with length of 4.15!
+[Info   :CustomSounds] [EpicMemeSoundPack] Spring2 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring3.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring3.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring3.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\Spring3.wav with length of 2.162!
+[Info   :CustomSounds] [EpicMemeSoundPack] Spring3 sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TakeDamage.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TakeDamage.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TakeDamage.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TakeDamage.wav with length of 0.645!
+[Info   :CustomSounds] [EpicMemeSoundPack] TakeDamage sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TerminalTypoError.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TerminalTypoError.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TerminalTypoError.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TerminalTypoError.wav with length of 2.474!
+[Info   :CustomSounds] [EpicMemeSoundPack] TerminalTypoError sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretActivate.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretActivate.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretActivate.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretActivate.wav with length of 2.532!
+[Info   :CustomSounds] [EpicMemeSoundPack] TurretActivate sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretDeactivate.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretDeactivate.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretDeactivate.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretDeactivate.wav with length of 0.823!
+[Info   :CustomSounds] [EpicMemeSoundPack] TurretDeactivate sound replaced!
+[Warning:LCSoundTool] Legacy directory location at BepInEx/Plugins found!
+[Warning:LCSoundTool] Legacy path contains the requested audio file at path C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretSeePlayer.wav!
+[Debug  :LCSoundTool] Loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretSeePlayer.wav from legacy path: C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretSeePlayer.wav
+[Debug  :LCSoundTool] Finished loading AudioClip C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\EpicMemeSoundPack\TurretSeePlayer.wav with length of 0.682!
+[Info   :CustomSounds] [EpicMemeSoundPack] TurretSeePlayer sound replaced!
+[Info   :EmployeeAssignments] Plugin EmployeeAssignments is loaded!
 [Warning:BrutalCompanyAdditions] Initializing BCManager...
 [Warning:BrutalCompanyAdditions] BCManager initialized!
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM1, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM2, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM3, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM4, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: OEM5, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Unknown key name: IMESelected, skipping remapping
+[Debug  :   BepInEx] [UnityInput] Using NewInputSystem
 [Warning: Unity Log] Failed to change display to ExclusiveFullscreen...reverting to FullscreenWindow
 [Info   : Unity Log] Saving changed settings
 [Info   : Unity Log] Changing gamma
@@ -210,6 +568,13 @@
 [Info   : Unity Log] Overriding float
 [Info   : Unity Log] Gamma changed
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
+[Info   :CustomSounds] Created AudioNetworkHandler prefab
+[Debug  :LCSoundTool] Loading NetworkHandler prefab...
+[Debug  :LCSoundTool] Registered NetworkHandler prefab!
+[Error  : Unity Log] Panel label not found.
+[Error  : Unity Log] Delete file game object not found.
+[Error  : Unity Log] Error occurred while refreshing save buttons: Object reference not set to an instance of an object
+[Error  : Unity Log] Error occurred while updating files panel rect: Failed to find FilesPanel RectTransform.
 [Info   : Unity Log] [FacepunchTransport] - Initialized access to Steam Relay Network.
 [Info   : Unity Log] [FacepunchTransport] - Fetched user Steam ID.
 [Info   : Unity Log] Set version num
@@ -219,8 +584,18 @@
 [Info   : Unity Log] Gamma changed
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
 [Info   : Unity Log] T
-[Info   : Unity Log] [Dissonance:Core] (20:32:09.818) DissonanceComms: Loading default playback prefab
-[Info   : Unity Log] [Dissonance:Core] (20:32:09.848) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] Positioning based on 3 saves.
+[Info   : Unity Log] Found file: LCSaveFile0
+[Info   : Unity Log] Found file: LCSaveFile1
+[Info   : Unity Log] Found file: LCSaveFile2
+[Info   : Unity Log] Renamed LCSaveFile0 to TempFile0
+[Info   : Unity Log] Renamed LCSaveFile1 to TempFile1
+[Info   : Unity Log] Renamed LCSaveFile2 to TempFile2
+[Info   : Unity Log] Renamed TempFile0 to LCSaveFile0
+[Info   : Unity Log] Renamed TempFile1 to LCSaveFile1
+[Info   : Unity Log] Renamed TempFile2 to LCSaveFile2
+[Info   : Unity Log] [Dissonance:Core] (00:43:03.683) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (00:43:03.737) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
@@ -237,12 +612,12 @@
 [Info   : Unity Log] are we in a server?: True
 [Message:    LC_API] server pre-setup success
 [Info   : Unity Log] Lobby has been created
-[Info   : Unity Log] [Dissonance:Network] (20:32:15.351) NfgoServer: Created server with SessionId:1350623563
-[Info   : Unity Log] [Dissonance:Network] (20:32:15.355) NfgoServer: Connected
-[Info   : Unity Log] [Dissonance:Recording] (20:32:15.436) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
-[Warning: Unity Log] [Dissonance:Recording] (20:32:15.463) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.1833804)
-[Info   : Unity Log] [Dissonance:Recording] (20:32:15.485) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
-[Info   : Unity Log] [Dissonance:Network] (20:32:15.488) ConnectionNegotiator`1: Received handshake response from server, joined session '1350623563'
+[Info   : Unity Log] [Dissonance:Network] (00:43:37.697) NfgoServer: Created server with SessionId:1872113977
+[Info   : Unity Log] [Dissonance:Network] (00:43:37.701) NfgoServer: Connected
+[Info   : Unity Log] [Dissonance:Recording] (00:43:37.895) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
+[Warning: Unity Log] [Dissonance:Recording] (00:43:37.936) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.2499759)
+[Info   : Unity Log] [Dissonance:Recording] (00:43:37.955) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
+[Info   : Unity Log] [Dissonance:Network] (00:43:37.958) ConnectionNegotiator`1: Received handshake response from server, joined session '1872113977'
 [Warning:    LC_API] Asking all other players for their mod list..
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object.
 Stack trace:
@@ -251,9 +626,15 @@ LC_API.CheatDatabase.OtherPlayerCheatDetector () (at <1d4470c097674cedbcb410fb56
 LC_API.Comp.LC_APIManager.CD () (at <1d4470c097674cedbcb410fb5631a32b>:IL_0000)
 LC_API.Comp.LC_APIManager.Update () (at <1d4470c097674cedbcb410fb5631a32b>:IL_0106)
 
-[Info   : Unity Log] [Dissonance:Network] (20:32:19.908) NfgoClient: Disconnected
-[Info   : Unity Log] [Dissonance:Network] (20:32:19.920) NfgoServer: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (00:43:46.028) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (00:43:46.034) NfgoServer: Disconnected
 [Debug  :Custom Boombox Music] Preparing to load AudioClips...
+[Info   :CustomSounds] Spawning network handler
+[Info   : Unity Log] AudioNetworkHandler instance created.
+[Info   : Unity Log] Failed to spawn NetworkObject.
+[Info   : Unity Log] Successfully accessed AudioNetworkHandler instance.
+[Debug  :LCSoundTool] Spawning NetworkHandler prefab!
+[Info   : Unity Log] LCSoundTool - NetworkHandler created!
 [Info   :MoonOfTheDay] Inserting moons in StartOfRound...
 [Info   :MoonOfTheDay] Highest vanilla level ID is 8
 [Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
@@ -270,12 +651,13 @@ LC_API.Comp.LC_APIManager.Update () (at <1d4470c097674cedbcb410fb5631a32b>:IL_01
 [Info   : LethalLib] LethalThings registered item: Hämis Plush
 [Info   : LethalLib] LethalThings registered item: Dirty Arson Plush
 [Info   : LethalLib] LethalThings registered item: Maxwell
+[Info   : LethalLib] LethalExtras registered item: Maxwell
 [Info   : LethalLib] LethalThings registered item: Rocket Launcher
 [Info   : LethalLib] LethalThings registered item: Toy Hammer
 [Info   : LethalLib] LethalThings registered item: Remote Radar
 [Info   : LethalLib] LethalThings registered item: Utility Belt
 [Info   : LethalLib] LethalThings registered item: Hacking Tool
-[Info   : LethalLib] Adding 3 unlockables to unlockables list
+[Info   : LethalLib] Adding 4 unlockables to unlockables list
 [Info   : LethalLib] Added TeleporterTrap to ExperimentationLevel
 [Info   : LethalLib] Added TeleporterTrap to AssuranceLevel
 [Info   : LethalLib] Added TeleporterTrap to VowLevel
@@ -299,10 +681,11 @@ LC_API.Comp.LC_APIManager.Update () (at <1d4470c097674cedbcb410fb5631a32b>:IL_01
 [Debug  :MoonOfTheDay] Added terminal command for Daily Moon.
 [Debug  :MoonOfTheDay] Adding terminal command for Weekly Moon...
 [Debug  :MoonOfTheDay] Added terminal command for Weekly Moon.
-[Info   : LethalLib] Adding 3 items to terminal
+[Info   : LethalLib] Adding 4 items to terminal
 [Info   : LethalLib] LethalThings registered item: Small Rug
 [Info   : LethalLib] LethalThings registered item: Large Rug
 [Info   : LethalLib] LethalThings registered item: Fatalities Sign
+[Info   : LethalLib] LethalExtras registered item: Medstation
 [Info   : LethalLib] Adding 5 items to terminal
 [Info   : LethalLib] Item Rocket Launcher already exists in terminal, skipping
 [Info   : LethalLib] Item Toy Hammer already exists in terminal, skipping
@@ -311,35 +694,554 @@ LC_API.Comp.LC_APIManager.Update () (at <1d4470c097674cedbcb410fb5631a32b>:IL_01
 [Info   : LethalLib] Item Hacking Tool already exists in terminal, skipping
 [Debug  :MoonOfTheDay] Inserting moons in Terminal...
 [Debug  :MoonOfTheDay] Terminal nodes have already been modified.
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 1
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
+[Info   : Unity Log] T
+[Warning: Unity Log] testEntrance is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] testEntrance is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
+[Warning: Unity Log] testExit is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] testExit is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
+[Warning: Unity Log] OutsideShip (5) is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The AudioReverbTrigger component was skipped during spawn!
+[Warning: Unity Log] EnemySpawner is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] OutsideEnemySpawner is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] OutsideEnemySpawner (1) is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] Cube is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] Cube is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The AnimatedObjectTrigger component was skipped during spawn!
+[Warning: Unity Log] Cube is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The DoorLock component was skipped during spawn!
+[Warning: Unity Log] Cube is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] Cube is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The AnimatedObjectTrigger component was skipped during spawn!
+[Warning: Unity Log] Cube is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The DoorLock component was skipped during spawn!
+[Warning: Unity Log] EnginePart is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The PhysicsProp component was skipped during spawn!
+[Warning: Unity Log] Cog is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The PhysicsProp component was skipped during spawn!
+[Warning: Unity Log] KillTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Info   : Unity Log] # powered lights: 0
+[Info   : LethalLib] Added custom dungeons to levels
+[Info   :  Enhancer] StartOfRound Start
+[Info   : Unity Log] level id: 0
+[Info   : Unity Log] Changing level
+[Info   :  Enhancer] TimeOfDay SetBuyingRateForDay
+[Info   :  Enhancer] Randomizing Prices
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Item sales percentages #16: 0
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BaboonHawk VALUE CHANGED: [prev: True] [new: False]
+[Info   : Unity Log] Loading placed object position as: (4.97, 2.14, -12.50)
+[Info   : Unity Log] Saving placed position as: (4.97, 2.14, -12.50)
+[Info   : Unity Log] Placing scene object at saved position: File Cabinet
+[Info   : Unity Log] Loading placed object position as: (7.36, 1.10, -17.07)
+[Info   : Unity Log] Saving placed position as: (7.36, 1.10, -17.07)
+[Info   : Unity Log] Placing scene object at saved position: Bunkbeds
+[Info   : Unity Log] Placing scene object at saved position: Terminal
+[Info   : Unity Log] Loading placed object position as: (8.40, 1.93, -12.20)
+[Info   : Unity Log] Saving placed position as: (8.40, 1.93, -12.20)
+[Info   : Unity Log] Loading placed object position as: (6.87, 1.54, -11.34)
+[Info   : Unity Log] Saving placed position as: (6.87, 1.54, -11.34)
+[Info   : Unity Log] Loading placed object position as: (9.51, 0.61, -11.29)
+[Info   : Unity Log] Saving placed position as: (9.51, 0.61, -11.29)
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BunkerSpider VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Centipede VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_CoilHead VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_EyelessDog VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_ForestGiant VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GhostGirl VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GiantWorm VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_HoardingBug VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Hygrodere VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Jester VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_SporeLizard VALUE CHANGED: [prev: True] [new: False]
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Thumper VALUE CHANGED: [prev: True] [new: False]
-[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
-[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
-[Info   : Unity Log] Initialized SkinwalkerNetworkManager
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   : Unity Log] Ship grabbable items list loaded. Count: 6
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Info   :  Enhancer] Setting unlocked suits this round
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Error  : Unity Log] ArgumentException: An item with the same key has already been added. Key: 1
+Stack trace:
+System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) (at <787acc3c9a4c471ba7d971300105af24>:IL_00DD)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <787acc3c9a4c471ba7d971300105af24>:IL_0000)
+StartOfRound.SpawnUnlockable (System.Int32 unlockableIndex) (at <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0257)
+System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <787acc3c9a4c471ba7d971300105af24>:IL_006A)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <787acc3c9a4c471ba7d971300105af24>:IL_0083)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <787acc3c9a4c471ba7d971300105af24>:IL_0000)
+Enhancer.SuitPatches.SpawnUnlockableDelegate (StartOfRound instance, System.Int32 ID) (at <37b45e26264840babaed9058bed5fcf9>:IL_0001)
+Enhancer.SuitPatches.StartOfRoundSuitPatch (StartOfRound __instance) (at <37b45e26264840babaed9058bed5fcf9>:IL_0011)
+(wrapper dynamic-method) StartOfRound.DMD<StartOfRound::Start>(StartOfRound)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<StartOfRound::Start>?-2126441514(StartOfRound)
+LethalLib.Modules.Dungeon.StartOfRound_Start (On.StartOfRound+orig_Start orig, StartOfRound self) (at <e07ac6959ec74dae94492206ebfaa5f0>:IL_0158)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<StartOfRound::Start>?-934588052(StartOfRound)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<StartOfRound::Start>?1874035014(StartOfRound)
+LethalThings.Patches.Miscellaneous.StartOfRound_Start (On.StartOfRound+orig_Start orig, StartOfRound self) (at O:/github/LethalThings/LethalThings/Patches/Miscellaneous.cs:23)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<StartOfRound::Start>?28605956(StartOfRound)
+
+[Info   :  Enhancer] HangarShipDoor Start
+[Info   :  Enhancer] TimeOfDay Start
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Item sales percentages #16: 0
+[Info   : Unity Log] Group credits: 12
+[Info   : Unity Log] [Dissonance:Core] (00:43:54.981) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+- Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
+- Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
+- Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Info   : Unity Log] Item start falling position: (-5.10, 2.18, -4.84)
+[Info   : Unity Log] Item start falling position: (-4.69, 0.42, -5.21)
+[Info   : Unity Log] Item start falling position: (-4.59, 2.30, -4.90)
+[Info   : Unity Log] Item start falling position: (-3.74, 2.18, -5.25)
+[Info   : Unity Log] Item start falling position: (-3.98, 2.28, -5.00)
+[Info   : Unity Log] Item start falling position: (-4.86, 2.30, -4.99)
+[Info   : Unity Log] Started spectating
+[Info   : Unity Log] Started spectating
+[Info   : Unity Log] Started spectating
+[Info   : Unity Log] Started spectating
+[Info   : Unity Log] Started spectating
+[Info   : Unity Log] Started spectating
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 20!
+[Info   : Unity Log] [Dissonance:Network] (00:43:55.090) NfgoServer: Created server with SessionId:1934456986
+[Info   : Unity Log] [Dissonance:Network] (00:43:55.091) NfgoServer: Connected
+[Info   : Unity Log] Taking control of player Player and enabling camera!
+[Info   : Unity Log] Starting voice tracking for player: Gabe
+[Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
+[Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Info   : Unity Log] Dropping item at rot: 0, 90, -90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Has beta?: {hasBeta}
+[Info   : Unity Log] Has beta save data: True
+[Info   : Unity Log] [Dissonance:Network] (00:43:56.535) ConnectionNegotiator`1: Received handshake response from server, joined session '1934456986'
+[Warning: Unity Log] [Dissonance:Recording] (00:43:56.537) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:9.183377)
+[Info   : Unity Log] [Dissonance:Recording] (00:43:56.553) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
+[Warning: Unity Log] [Dissonance:Recording] (00:43:56.722) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:1.450034)
+[Info   : Unity Log] [Dissonance:Recording] (00:43:56.746) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Warning: Unity Log] [Dissonance:Recording] (00:43:57.608) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.1666542)
+[Info   : Unity Log] [Dissonance:Recording] (00:43:57.627) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+[Warning: Unity Log] [Dissonance:Recording] (00:44:01.479) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (00:44:01.500) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.1500077)
+[Info   : Unity Log] [Dissonance:Recording] (00:44:01.514) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
+[Info   : Unity Log] Could not parse word: s
+[Info   : Unity Log] PLAYER OPENED MENU
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc
+[Info   : Unity Log] STOPPING SPECIAL ANIMATION ON LOCAL CLIENT; player who was using: Gabe
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Info   : Unity Log] Triggering animated object trigger bool: setting to False
+[Info   : Unity Log] bool val: False
+[Info   : Unity Log] Received set ship lights RPC. Lights on?: False
+[Info   : Unity Log] Toggling ship lights RPC. lights now: False
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
+[Info   : Unity Log] bool val: True
+[Info   : Unity Log] Received set ship lights RPC. Lights on?: True
+[Info   : Unity Log] Toggling ship lights RPC. lights now: True
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Info   : Unity Log] Holding interact
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Info   : Unity Log] PLAYER OPENED MENU
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   :CustomSounds] Destroying network handler
+[Debug  :LCSoundTool] Destroying NetworkHandler prefab!
+[Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
+[Info   : Unity Log] [Netcode] Shutdown
+[Warning: Unity Log] [Dissonance:Recording] (00:44:41.977) BasicMicrophoneCapture: Insufficient buffer space, requested 19200, clamped to 16383 (dropping 2817 samples)
+[Warning: Unity Log] [Dissonance:Recording] (00:44:41.978) BasePreprocessingPipeline: Lost 960 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (00:44:41.979) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Info   : Unity Log] [Netcode] ShutdownInternal
+[Info   : Unity Log] [FacepunchTransport] - Shutting down.
+[Info   : Unity Log] [Netcode] NetworkConnectionManager.Shutdown() -> IsListening && NetworkTransport != null -> NetworkTransport.Shutdown()
+[Info   : Unity Log] [Dissonance:Network] (00:44:42.043) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (00:44:42.044) NfgoServer: Disconnected
+[Info   : Unity Log] CONDITIONALLY resetting unlockables list!
+[Info   :Persistent Purchases] Not resetting 0 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 1 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 2 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 3 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 4 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 5 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 6 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 7 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 8 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 9 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 10 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 11 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 12 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 13 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 14 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 15 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 16 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 17 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 18 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 19 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 20 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 21 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 22 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 23 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 24 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 25 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 26 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 27 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 28 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 29 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 30 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 31 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 32 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 33 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 34 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 35 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 36 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 37 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 38 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 39 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 40 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 41 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 42 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 43 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 44 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 45 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 46 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 47 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 48 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 49 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 50 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 51 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 52 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 53 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 54 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 55 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 56 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 57 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 58 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 59 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 60 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 61 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 62 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 63 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 64 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 65 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 66 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 67 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 68 dontResetAnything
+[Info   : Unity Log] Scene manager is null
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (5) is being destroyed while NetworkObject-Player (5) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (1) is being destroyed while NetworkObject-Player (1) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (2) is being destroyed while NetworkObject-Player (2) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (3) is being destroyed while NetworkObject-Player (3) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Info   : Unity Log] Terminal disabled, disabling ESC key listener
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (4) is being destroyed while NetworkObject-Player (4) is still spawned! (could break state synchronization)
+[Info   : Unity Log] Set version num
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 1
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
+[Info   : Unity Log] T
+[Info   : Unity Log] Positioning based on 3 saves.
+[Info   : Unity Log] Found file: LCSaveFile0
+[Info   : Unity Log] Found file: LCSaveFile1
+[Info   : Unity Log] Found file: LCSaveFile2
+[Info   : Unity Log] Renamed LCSaveFile0 to TempFile0
+[Info   : Unity Log] Renamed LCSaveFile1 to TempFile1
+[Info   : Unity Log] Renamed LCSaveFile2 to TempFile2
+[Info   : Unity Log] Renamed TempFile0 to LCSaveFile0
+[Info   : Unity Log] Renamed TempFile1 to LCSaveFile1
+[Info   : Unity Log] Renamed TempFile2 to LCSaveFile2
+[Info   : Unity Log] [Dissonance:Core] (00:44:42.376) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (00:44:42.378) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+- Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
+- Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
+- Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
+[Error  : Unity Log] NullReferenceException
+Stack trace:
+ShipLoot.Patches.HudManagerPatcher+<ShipLootCoroutine>d__5.MoveNext () (at <e8939e1999114c978de460e01d1a93e3>:IL_005C)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <e27997765c1848b09d8073e5d642717a>:IL_0026)
+
+[Info   : Unity Log] host button pressed
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] [Netcode] StartHost
+[Info   : Unity Log] [Netcode] Initialize
+[Info   : Unity Log] [FacepunchTransport] - Starting as server.
+[Info   : Unity Log] Connection approval callback! Game version of client request: 
+[Info   : Unity Log] Joining client id: 0; Local/host client id: 0
+[Info   : Unity Log] Stopped connection approval callback, as the client in question was the host!
+[Warning: Unity Log] [Netcode] You cannot decline the host connection. The connection was automatically approved.
+[Info   : Unity Log] started host!
+[Info   : Unity Log] are we in a server?: True
+[Message:    LC_API] server pre-setup success
+[Info   : Unity Log] Lobby has been created
+[Info   : Unity Log] [Dissonance:Network] (00:44:49.302) NfgoServer: Created server with SessionId:879532389
+[Info   : Unity Log] [Dissonance:Network] (00:44:49.302) NfgoServer: Connected
+[Info   : Unity Log] [Dissonance:Recording] (00:44:49.321) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'')
+[Info   : Unity Log] [Dissonance:Network] (00:44:49.326) ConnectionNegotiator`1: Received handshake response from server, joined session '879532389'
+[Info   : Unity Log] [Dissonance:Network] (00:44:51.111) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (00:44:51.113) NfgoServer: Disconnected
+[Info   :CustomSounds] Spawning network handler
+[Info   : Unity Log] AudioNetworkHandler instance created.
+[Info   : Unity Log] Failed to spawn NetworkObject.
+[Info   : Unity Log] Successfully accessed AudioNetworkHandler instance.
+[Debug  :LCSoundTool] Spawning NetworkHandler prefab!
+[Info   : Unity Log] LCSoundTool - NetworkHandler created!
+[Info   :MoonOfTheDay] Inserting moons in StartOfRound...
+[Info   : LethalLib] Adding 4 unlockables to unlockables list
+[Info   : LethalLib] Unlockable Small Rug already exists in unlockables list, skipping
+[Info   : LethalLib] Unlockable Large Rug already exists in unlockables list, skipping
+[Info   : LethalLib] Unlockable Fatalities Sign already exists in unlockables list, skipping
+[Info   : LethalLib] Unlockable Medstation already exists in unlockables list, skipping
+[Info   : LethalLib] Added TeleporterTrap to ExperimentationLevel
+[Info   : LethalLib] Added TeleporterTrap to AssuranceLevel
+[Info   : LethalLib] Added TeleporterTrap to VowLevel
+[Info   : LethalLib] Added TeleporterTrap to MarchLevel
+[Info   : LethalLib] Added TeleporterTrap to RendLevel
+[Info   : LethalLib] Added TeleporterTrap to DineLevel
+[Info   : LethalLib] Added TeleporterTrap to OffenseLevel
+[Info   : LethalLib] Added TeleporterTrap to TitanLevel
+[Info   : Unity Log] Enabling connection callbacks in StartOfRound
+[Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Warning:BrutalCompanyPlus] Modifying the Starting Quota Values based on Config
+[Info   : LethalLib] Adding 5 items to terminal
+[Info   : LethalLib] LethalThings registered item: Rocket Launcher
+[Info   : LethalLib] LethalThings registered item: Toy Hammer
+[Info   : LethalLib] LethalThings registered item: Remote Radar
+[Info   : LethalLib] LethalThings registered item: Utility Belt
+[Info   : LethalLib] LethalThings registered item: Hacking Tool
+[Debug  :MoonOfTheDay] Inserting moons in Terminal...
+[Debug  :MoonOfTheDay] Terminal nodes have already been modified.
+[Info   : LethalLib] Adding 4 items to terminal
+[Info   : LethalLib] Keyword small-rug already registed, skipping.
+[Info   : LethalLib] Keyword large-rug already registed, skipping.
+[Info   : LethalLib] Keyword fatalities-sign already registed, skipping.
+[Info   : LethalLib] Keyword medstation already registed, skipping.
+[Info   : LethalLib] Adding 5 items to terminal
+[Info   : LethalLib] Item Rocket Launcher already exists in terminal, skipping
+[Info   : LethalLib] Item Toy Hammer already exists in terminal, skipping
+[Info   : LethalLib] Item Remote Radar already exists in terminal, skipping
+[Info   : LethalLib] Item Utility Belt already exists in terminal, skipping
+[Info   : LethalLib] Item Hacking Tool already exists in terminal, skipping
+[Debug  :MoonOfTheDay] Inserting moons in Terminal...
+[Debug  :MoonOfTheDay] Terminal nodes have already been modified.
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 1
 [Info   : Unity Log] Overriding float
@@ -402,31 +1304,62 @@ LC_API.Comp.LC_APIManager.Update () (at <1d4470c097674cedbcb410fb5631a32b>:IL_01
 [Info   : Unity Log] Saving placed position as: (1.21, 4.29, -11.76)
 [Info   : Unity Log] Loading placed object position as: (9.57, 1.53, -12.17)
 [Info   : Unity Log] Saving placed position as: (9.57, 1.53, -12.17)
+[Info   : Unity Log] DISABLE OBJECT A
+[Info   : Unity Log] DISABLE OBJECT A
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
-[Error  : Unity Log] Error attempting to load ship unlockables on the host: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <787acc3c9a4c471ba7d971300105af24>:IL_0009 
-  at StartOfRound.LoadUnlockables () [0x00035] in <39ddadb2aa5843e586a6c642ee60b0b5>:IL_0035 
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Info   : Unity Log] Ship grabbable items list loaded. Count: 42
 [Info   : Unity Log] Setting scrap value for item: SteeringWheel(Clone): 16
-[Info   : Unity Log] Loading item save data for item: RadarBoosterDevice(Clone) (UnityEngine.GameObject): 8
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 28
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 16
-[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 55
-[Info   : Unity Log] Setting scrap value for item: CashRegisterItem(Clone): 106
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Info   : Unity Log] Setting scrap value for item: BigBolt(Clone): 28
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
-[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Info   : Unity Log] Setting scrap value for item: RubberDucky(Clone): 12
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 16
+[Info   : Unity Log] Loading item save data for item: RadarBoosterDevice(Clone) (UnityEngine.GameObject): 8
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
+[Info   : Unity Log] Setting scrap value for item: Airhorn(Clone): 55
+[Info   : Unity Log] Setting scrap value for item: Dustpan(Clone): 28
+[Info   : Unity Log] Setting scrap value for item: CashRegisterItem(Clone): 106
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Target).
 [Info   :  Enhancer] Setting unlocked suits this round
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
@@ -451,7 +1384,7 @@ Parameter name: index
 [Info   : Unity Log] Item sales percentages #15: 0
 [Info   : Unity Log] Item sales percentages #16: 0
 [Info   : Unity Log] Group credits: 0
-[Info   : Unity Log] [Dissonance:Core] (20:32:23.523) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] [Dissonance:Core] (00:44:51.605) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
@@ -491,140 +1424,283 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Warning: Unity Log] BoxColliders does not support negative scale or size.
 The effective box size has been forced positive and is likely to give unexpected collision geometry.
 If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
-[Info   : Unity Log] Item start falling position: (-4.00, 0.46, -5.45)
-[Info   : Unity Log] Item start falling position: (2.80, 0.01, -5.68)
-[Info   : Unity Log] Item start falling position: (5.12, 0.03, -4.62)
-[Info   : Unity Log] Item start falling position: (3.31, 0.08, -9.00)
-[Info   : Unity Log] Item start falling position: (-3.21, 0.06, -5.60)
-[Info   : Unity Log] Item start falling position: (7.94, 0.02, -6.09)
-[Info   : Unity Log] Item start falling position: (3.34, 0.06, -7.89)
-[Info   : Unity Log] Item start falling position: (-3.90, 0.10, -5.56)
-[Info   : Unity Log] Item start falling position: (7.29, 0.03, -4.81)
-[Info   : Unity Log] Item start falling position: (2.97, 0.06, -5.91)
-[Info   : Unity Log] Item start falling position: (-4.41, 1.14, -5.12)
 [Info   : Unity Log] Item start falling position: (-4.51, 0.08, -5.51)
-[Info   : Unity Log] Item start falling position: (-2.61, -0.04, -5.78)
-[Info   : Unity Log] dropping item did not get raycast : Dustpan(Clone)
+[Info   : Unity Log] Item start falling position: (2.80, 0.01, -5.68)
 [Info   : Unity Log] Item start falling position: (-3.81, 0.06, -5.54)
-[Info   : Unity Log] Item start falling position: (-4.63, 1.14, -5.11)
-[Info   : Unity Log] Item start falling position: (2.63, -0.04, -5.50)
-[Info   : Unity Log] dropping item did not get raycast : Dustpan(Clone)
-[Info   : Unity Log] Item start falling position: (-4.56, 0.10, -5.52)
-[Info   : Unity Log] Item start falling position: (5.68, 0.06, -6.01)
-[Info   : Unity Log] Item start falling position: (-4.59, 0.44, -5.46)
-[Info   : Unity Log] Item start falling position: (5.24, 0.03, -4.68)
-[Info   : Unity Log] Item start falling position: (8.42, 0.11, -9.14)
-[Info   : Unity Log] Item start falling position: (0.61, 0.02, -7.99)
+[Info   : Unity Log] Item start falling position: (-3.21, 0.06, -5.60)
 [Info   : Unity Log] Item start falling position: (1.78, 0.06, -7.30)
 [Info   : Unity Log] Item start falling position: (4.31, 0.11, -8.13)
 [Debug  :Custom Boombox Music] Applying clips!
 [Debug  :Custom Boombox Music] Total Clip Count: 5
-[Info   : Unity Log] Item start falling position: (7.28, 0.89, -4.70)
-[Info   : Unity Log] Item start falling position: (-3.41, 0.06, -5.59)
 [Info   : Unity Log] Item start falling position: (6.52, 0.21, -5.99)
 [Info   : Unity Log] Item start falling position: (3.34, 0.06, -7.87)
-[Info   : Unity Log] Item start falling position: (-3.20, 0.06, -5.41)
-[Info   : Unity Log] Item start falling position: (-4.65, 0.46, -5.43)
-[Info   : Unity Log] Item start falling position: (8.23, 0.02, -7.92)
-[Info   : Unity Log] Item start falling position: (5.53, 0.03, -4.46)
-[Info   : Unity Log] Item start falling position: (-3.20, 0.06, -5.38)
-[Info   : Unity Log] Item start falling position: (-4.63, 1.14, -5.13)
-[Info   : Unity Log] Item start falling position: (-4.25, 1.62, -5.18)
+[Info   : Unity Log] Item start falling position: (-4.56, 0.10, -5.52)
 [Info   : Unity Log] Item start falling position: (2.37, -0.04, -4.72)
 [Info   : Unity Log] dropping item did not get raycast : RubberDucky(Clone)
 [Info   : Unity Log] Seed: 11668854 + 1 + 0
+[Info   : Unity Log] Item start falling position: (-4.63, 1.14, -5.13)
+[Info   : Unity Log] Item start falling position: (-3.20, 0.06, -5.41)
+[Info   : Unity Log] Item start falling position: (5.68, 0.06, -6.01)
+[Info   : Unity Log] Item start falling position: (2.63, -0.04, -5.50)
+[Info   : Unity Log] dropping item did not get raycast : Dustpan(Clone)
+[Info   : Unity Log] Item start falling position: (7.29, 0.03, -4.81)
+[Info   : Unity Log] Item start falling position: (-4.25, 1.62, -5.18)
+[Info   : Unity Log] Item start falling position: (-3.90, 0.10, -5.56)
+[Info   : Unity Log] Item start falling position: (-4.65, 0.46, -5.43)
+[Info   : Unity Log] Item start falling position: (8.42, 0.11, -9.14)
+[Info   : Unity Log] Item start falling position: (3.31, 0.08, -9.00)
+[Info   : Unity Log] Item start falling position: (-3.47, 0.42, -5.33)
+[Info   : Unity Log] Item start falling position: (3.34, 0.06, -7.89)
+[Info   : Unity Log] Item start falling position: (5.12, 0.03, -4.62)
+[Info   : Unity Log] Item start falling position: (8.23, 0.02, -7.92)
+[Info   : Unity Log] Item start falling position: (7.94, 0.02, -6.09)
+[Info   : Unity Log] Item start falling position: (-3.69, 0.06, -5.59)
+[Info   : Unity Log] Item start falling position: (5.53, 0.03, -4.46)
+[Info   : Unity Log] Item start falling position: (-4.59, 0.44, -5.46)
+[Info   : Unity Log] Item start falling position: (2.97, 0.06, -5.91)
+[Info   : Unity Log] Item start falling position: (-3.41, 0.06, -5.59)
+[Info   : Unity Log] Item start falling position: (0.61, 0.02, -7.99)
+[Info   : Unity Log] Item start falling position: (-2.61, -0.04, -5.78)
+[Info   : Unity Log] dropping item did not get raycast : Dustpan(Clone)
+[Info   : Unity Log] Item start falling position: (-4.63, 1.14, -5.11)
+[Info   : Unity Log] Item start falling position: (-4.41, 1.14, -5.12)
+[Info   : Unity Log] Item start falling position: (7.28, 0.89, -4.70)
+[Info   : Unity Log] Item start falling position: (-4.00, 0.46, -5.45)
+[Info   : Unity Log] Item start falling position: (3.58, 0.03, -7.14)
+[Info   : Unity Log] Item start falling position: (8.31, 1.40, -7.86)
 [Info   : Unity Log] Item start falling position: (3.92, 0.11, -8.65)
 [Debug  :Custom Boombox Music] Applying clips!
 [Debug  :Custom Boombox Music] Total Clip Count: 5
-[Info   : Unity Log] Item start falling position: (3.58, 0.03, -7.14)
 [Info   : Unity Log] Item start falling position: (1.67, 0.08, -8.25)
-[Info   : Unity Log] Item start falling position: (-3.47, 0.42, -5.33)
-[Info   : Unity Log] Item start falling position: (8.31, 1.40, -7.86)
-[Info   : Unity Log] Item start falling position: (-3.69, 0.06, -5.59)
+[Info   : Unity Log] Item start falling position: (5.24, 0.03, -4.68)
+[Info   : Unity Log] Item start falling position: (-3.20, 0.06, -5.38)
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
 [Info   : Unity Log] Started spectating
-[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 19!
-[Info   : Unity Log] [Dissonance:Network] (20:32:23.776) NfgoServer: Created server with SessionId:148221190
-[Info   : Unity Log] [Dissonance:Network] (20:32:23.783) NfgoServer: Connected
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 20!
+[Info   : Unity Log] [Dissonance:Network] (00:44:51.731) NfgoServer: Created server with SessionId:669346838
+[Info   : Unity Log] [Dissonance:Network] (00:44:51.732) NfgoServer: Connected
 [Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: -90, 130, 40
 [Info   : Unity Log] Dropping item at rot: -21, 90, 0
 [Info   : Unity Log] Dropping item at rot: -90, 0, -90
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Dropping item at rot: -90, 130, 40
 [Info   : Unity Log] Taking control of player Player and enabling camera!
 [Info   : Unity Log] Starting voice tracking for player: Gabe
 [Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
 [Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, -90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, -90
 [Info   : Unity Log] Dropping item at rot: -90, 90, 0
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Dropping item at rot: -90, 90, 0
+[Info   : Unity Log] Dropping item at rot: 90, 0, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 0
 [Info   : Unity Log] Dropping item at rot: 0, 90, 180
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, -90
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, -90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 180
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: -90, 90, 0
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 90, 0, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, -90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
 [Info   : Unity Log] Dropping item at rot: 0, 90, -90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 180
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
+[Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: -90, 90, 0
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 90
-[Info   : Unity Log] Dropping item at rot: 0, 90, 180
 [Info   : Unity Log] Dropping item at rot: 0, 90, 90
 [Info   : Unity Log] Dropping item at rot: 0, 90, 180
 [Info   : Unity Log] Has beta?: {hasBeta}
 [Info   : Unity Log] Has beta save data: True
-[Info   : Unity Log] [Dissonance:Network] (20:32:24.265) ConnectionNegotiator`1: Received handshake response from server, joined session '148221190'
-[Warning: Unity Log] [Dissonance:Recording] (20:32:24.267) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:4.133344)
-[Info   : Unity Log] [Dissonance:Recording] (20:32:24.283) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
-[Warning: Unity Log] [Dissonance:Recording] (20:32:24.344) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.283331)
-[Info   : Unity Log] [Dissonance:Recording] (20:32:24.366) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
-[Info   : Unity Log] PLAYER OPENED MENU
+[Info   : Unity Log] [Dissonance:Network] (00:44:51.914) ConnectionNegotiator`1: Received handshake response from server, joined session '669346838'
+[Warning: Unity Log] [Dissonance:Recording] (00:44:51.916) CapturePipelineManager: Detected a frame skip, forcing capture pipeline reset (Delta Time:0.6666622)
+[Info   : Unity Log] [Dissonance:Recording] (00:44:51.927) BasicMicrophoneCapture: Began mic capture (SampleRate:48000Hz, FrameSize:960, Buffer Limit:2^13, Latency:20ms, Device:'SteelSeries Sonar - Microphone (SteelSeries Sonar Virtual Audio Device)')
+[Warning:    LC_API] Asking all other players for their mod list..
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] BBFlashlight(Clone) - $0
+[Debug  :  ShipLoot] SteeringWheel(Clone) - $16
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] Boombox(Clone) - $0
+[Debug  :  ShipLoot] BigBolt(Clone) - $28
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] RubberDucky(Clone) - $12
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Dustpan(Clone) - $16
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] PatcherGunItem(Clone) - $0
+[Debug  :  ShipLoot] RadarBoosterDevice(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Airhorn(Clone) - $55
+[Debug  :  ShipLoot] Dustpan(Clone) - $28
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] CashRegisterItem(Clone) - $106
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Boombox(Clone) - $0
+[Debug  :  ShipLoot] StunGrenade(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] BBFlashlight(Clone) - $0
+[Debug  :  ShipLoot] SteeringWheel(Clone) - $16
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] Boombox(Clone) - $0
+[Debug  :  ShipLoot] BigBolt(Clone) - $28
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] RubberDucky(Clone) - $12
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Dustpan(Clone) - $16
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] PatcherGunItem(Clone) - $0
+[Debug  :  ShipLoot] RadarBoosterDevice(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Airhorn(Clone) - $55
+[Debug  :  ShipLoot] Dustpan(Clone) - $28
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] CashRegisterItem(Clone) - $106
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Boombox(Clone) - $0
+[Debug  :  ShipLoot] StunGrenade(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Warning: Unity Log] [Netcode] Setting ownership twice? Client-ID 0 already owns NetworkObject ID 110!
+[Info   : Unity Log] playerHeldBy on currentlyGrabbingObject 1: Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] use item A1
+[Info   : Unity Log] use item A
+[Info   : Unity Log] use item D
+[Info   : Unity Log] use item E
+[Info   : Unity Log] use item F
+[Info   : Unity Log] isbeingUsed set from object script
+[Info   : Unity Log] running item activate function
+[Info   : Unity Log] Dropping item at rot: 0, 308, 90
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
+[Info   : Unity Log] bool val: True
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
+[Info   : Unity Log] bool val: True
+[Info   : Unity Log] Triggering animated object trigger bool: setting to False
+[Info   : Unity Log] bool val: False
+[Info   : Unity Log] Triggering animated object trigger bool: setting to False
+[Info   : Unity Log] bool val: False
+[Debug  :  ShipLoot] Calculating total ship scrap value.
+[Debug  :  ShipLoot] BBFlashlight(Clone) - $0
+[Debug  :  ShipLoot] SteeringWheel(Clone) - $16
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] Boombox(Clone) - $0
+[Debug  :  ShipLoot] BigBolt(Clone) - $28
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] RubberDucky(Clone) - $12
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Dustpan(Clone) - $16
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] PatcherGunItem(Clone) - $0
+[Debug  :  ShipLoot] RadarBoosterDevice(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] ShovelItem(Clone) - $0
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Debug  :  ShipLoot] Airhorn(Clone) - $55
+[Debug  :  ShipLoot] Dustpan(Clone) - $28
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] FlashlightItem(Clone) - $0
+[Debug  :  ShipLoot] CashRegisterItem(Clone) - $106
+[Debug  :  ShipLoot] LockPickerItem(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] Boombox(Clone) - $0
+[Debug  :  ShipLoot] StunGrenade(Clone) - $0
+[Debug  :  ShipLoot] Key(Clone) - $3
+[Debug  :  ShipLoot] WalkieTalkie(Clone) - $0
+[Info   : Unity Log] bool val: False
+[Info   : Unity Log] bool val: False
 [Info   : Unity Log] PLAYER OPENED MENU
 [Info   : Unity Log] Leaving current lobby
 [Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   :CustomSounds] Destroying network handler
+[Debug  :LCSoundTool] Destroying NetworkHandler prefab!
 [Info   : Unity Log] Saved data for item type: Radar-booster - 8
 [Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
 [Info   : Unity Log] [Netcode] Shutdown
-[Warning: Unity Log] [Dissonance:Recording] (20:32:41.593) BasicMicrophoneCapture: Insufficient buffer space, requested 22080, clamped to 16383 (dropping 5697 samples)
-[Warning: Unity Log] [Dissonance:Recording] (20:32:41.594) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
-[Warning: Unity Log] [Dissonance:Recording] (20:32:41.594) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (00:45:17.918) BasicMicrophoneCapture: Insufficient buffer space, requested 21600, clamped to 16383 (dropping 5217 samples)
+[Warning: Unity Log] [Dissonance:Recording] (00:45:17.919) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (00:45:17.921) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
+[Warning: Unity Log] [Dissonance:Recording] (00:45:17.922) BasePreprocessingPipeline: Lost 480 samples in the preprocessor (buffer full), injecting silence to compensate
 [Info   : Unity Log] [Netcode] ShutdownInternal
 [Info   : Unity Log] [FacepunchTransport] - Shutting down.
 [Info   : Unity Log] [Netcode] NetworkConnectionManager.Shutdown() -> IsListening && NetworkTransport != null -> NetworkTransport.Shutdown()
-[Info   : Unity Log] [Dissonance:Network] (20:32:41.646) NfgoClient: Disconnected
-[Info   : Unity Log] [Dissonance:Network] (20:32:41.647) NfgoServer: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (00:45:17.959) NfgoClient: Disconnected
+[Info   : Unity Log] [Dissonance:Network] (00:45:17.960) NfgoServer: Disconnected
 [Info   : Unity Log] CONDITIONALLY resetting unlockables list!
 [Info   :Persistent Purchases] Not resetting 0 dontResetAnything
 [Info   :Persistent Purchases] Not resetting 1 dontResetAnything
@@ -664,15 +1740,132 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   :Persistent Purchases] Not resetting 35 dontResetAnything
 [Info   :Persistent Purchases] Not resetting 36 dontResetAnything
 [Info   :Persistent Purchases] Not resetting 37 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 38 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 39 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 40 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 41 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 42 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 43 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 44 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 45 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 46 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 47 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 48 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 49 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 50 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 51 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 52 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 53 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 54 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 55 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 56 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 57 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 58 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 59 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 60 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 61 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 62 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 63 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 64 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 65 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 66 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 67 dontResetAnything
+[Info   :Persistent Purchases] Not resetting 68 dontResetAnything
 [Info   : Unity Log] Scene manager is null
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (5) is being destroyed while NetworkObject-Player (5) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (4) is being destroyed while NetworkObject-Player (4) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (1) is being destroyed while NetworkObject-Player (1) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (2) is being destroyed while NetworkObject-Player (2) is still spawned! (could break state synchronization)
 [Warning: Unity Log] [Netcode] NetworkBehaviour-Player (3) is being destroyed while NetworkObject-Player (3) is still spawned! (could break state synchronization)
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (4) is being destroyed while NetworkObject-Player (4) is still spawned! (could break state synchronization)
-[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
-[Warning: Unity Log] [Netcode] NetworkBehaviour-Player (5) is being destroyed while NetworkObject-Player (5) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
 [Info   : Unity Log] Terminal disabled, disabling ESC key listener
-[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
+[Warning: Unity Log] [Netcode] NetworkBehaviour-ChangableSuit(Clone) is being destroyed while NetworkObject-ChangableSuit(Clone) is still spawned! (could break state synchronization)
 [Info   : Unity Log] Set version num
 [Info   : Unity Log] Changing gamma
 [Info   : Unity Log] override float value: 1
@@ -680,14 +1873,26 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   : Unity Log] Gamma changed
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
 [Info   : Unity Log] T
-[Info   : Unity Log] [Dissonance:Core] (20:32:41.828) DissonanceComms: Loading default playback prefab
-[Info   : Unity Log] [Dissonance:Core] (20:32:41.830) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+[Info   : Unity Log] Positioning based on 3 saves.
+[Info   : Unity Log] Found file: LCSaveFile0
+[Info   : Unity Log] Found file: LCSaveFile1
+[Info   : Unity Log] Found file: LCSaveFile2
+[Info   : Unity Log] Renamed LCSaveFile0 to TempFile0
+[Info   : Unity Log] Renamed LCSaveFile1 to TempFile1
+[Info   : Unity Log] Renamed LCSaveFile2 to TempFile2
+[Info   : Unity Log] Renamed TempFile0 to LCSaveFile0
+[Info   : Unity Log] Renamed TempFile1 to LCSaveFile1
+[Info   : Unity Log] Renamed TempFile2 to LCSaveFile2
+[Info   : Unity Log] [Dissonance:Core] (00:45:18.284) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (00:45:18.285) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
 - Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
 - Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
 - Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
 [Info   : Unity Log] [Netcode] ShutdownInternal
 [Info   : Unity Log] Leaving current lobby
 [Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Error  :CustomSounds] Failed to destroy network handler
+[Error  :LCSoundTool] Failed to destroy NetworkHandler prefab!
 [Info   : Unity Log] Server is not active; quitting to main menu
 [Info   : Unity Log] Set version num
 [Info   : Unity Log] Changing gamma
@@ -697,3 +1902,11 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   : Unity Log] Set gamma to new value: 1; (0.00, 0.00, 0.00, 1.00) (True)
 [Info   : Unity Log] T
 [Info   : Unity Log] unsubscribing from steam callbacks
+[Info   :LRCCosmetics] Loading assets for LRCCosmetics
+[Info   :LRCCosmetics] Successfully loaded cosmetic: lrccosmetics.braixenhead
+[Info   :LRCCosmetics] Successfully loaded cosmetic: lrccosmetics.dittohead
+[Info   :LRCCosmetics] Successfully loaded cosmetic: lrccosmetics.gardevoirhead
+[Info   :LRCCosmetics] Successfully loaded cosmetic: lrccosmetics.legosharkbluehead
+[Info   :LRCCosmetics] Successfully loaded cosmetic: lrccosmetics.meowscaradahead
+[Info   :LRCCosmetics] Successfully loaded cosmetic: lrccosmetics.vaporeonhead
+[Info   :LRCCosmetics] Successfully loaded cosmetic: lrccosmetics.zoruahead
